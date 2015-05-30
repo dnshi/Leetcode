@@ -1,7 +1,7 @@
 LeetCode
 ========
 
-###LeetCode Algorithm
+### LeetCode Algorithms
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
@@ -10,7 +10,7 @@ LeetCode
 |136|[Single Number](https://oj.leetcode.com/problems/single-number/)| [JavaScript](./algorithms/SingleNumber.js)|Medium|
 
 
-###LeetCode Shell
+### LeetCode Shell
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
