@@ -60,16 +60,13 @@
  */
 var levelOrder = function(root) {
     var arr = [];
-
-    f(arr, root, 0);
-
+    if (root) {
+        f(arr, root, 0);
+    }
     return arr;
 };
 
 function f(arr, v, i) {
-    if (!v) {
-        return;
-    }
     if (!arr[i]) {
         arr[i] = [];
     }
@@ -83,15 +80,21 @@ function f(arr, v, i) {
 var testCase = {
     val: 3,
     left: {
-        val: 9
+        val: 9,
+        left: null,
+        right: null
     },
     right: {
         val: 20,
         left: {
-            val: 15
+            val: 15,
+            left: null,
+            right: null
         },
         right: {
-            val: 7
+            val: 7,
+            left: null,
+            right: null
         }
     }
 };
