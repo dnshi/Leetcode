@@ -36,5 +36,5 @@ var lengthOfLongestSubstring = function(s) {
 var testCase1 = 'abcabcbb';
 var testCase2 = 'bbbbb';
 
-console.log(lengthOfLongestSubstring(testCase1) === 3);
-console.log(lengthOfLongestSubstring(testCase2) === 1);
+console.log(lengthOfLongestSubstring(testCase1) === 3); // true
+console.log(lengthOfLongestSubstring(testCase2) === 1); // true
