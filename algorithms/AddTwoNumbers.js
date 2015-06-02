@@ -106,4 +106,4 @@ var l2 = {
 
 var result = addTwoNumbers(l1, l2);
 
-console.log(result.toString() === '7,0,8');
+console.log(result.toString() === '7,0,8'); // true
