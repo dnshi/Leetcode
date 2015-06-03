@@ -1,5 +1,5 @@
 // Source : https://oj.leetcode.com/problems/longest-palindromic-substring/
-// Author : Xiao Shi
+// Author : Dean Shi
 // Date   : 2015-06-02
 
 /**********************************************************************************

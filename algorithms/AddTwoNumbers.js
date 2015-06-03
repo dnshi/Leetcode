@@ -1,5 +1,5 @@
 // Source : https://oj.leetcode.com/problems/add-two-numbers/
-// Author : Xiao Shi
+// Author : Dean Shi
 // Date   : 2015-06-01
 
 /**********************************************************************************
