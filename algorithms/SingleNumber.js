@@ -17,11 +17,13 @@
  * @return {number}
  */
 var singleNumber = function(nums) {
+    // Solution 1:
     // Runtime: 164 ms
     return nums.reduce(function(pre, cur) {
         return pre ^ cur;
     });
 
+    // Solution 2:
     // Runtime: 140 ms
     // var res;
     // for (var i in nums) {
@@ -29,6 +31,7 @@ var singleNumber = function(nums) {
     // }
     // return res;
 
+    // Solution 3:
     // Runtime: 128 ms
     // var res = nums[0];
     // for (var i = 1, l = nums.length; i < l; ++i) {
