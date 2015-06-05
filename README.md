@@ -25,4 +25,4 @@ LeetCode
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|195|[Tenth Line](https://leetcode.com/problems/tenth-line/)| [Bash](./shell/TenthLine.sh)|Easy|
+|195|[Tenth Line](https://leetcode.com/problems/tenth-line/)| [Shell](./shell/TenthLine.sh)|Easy|
