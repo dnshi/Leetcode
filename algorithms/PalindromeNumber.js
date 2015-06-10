@@ -29,41 +29,43 @@
 var isPalindrome = function(x) {
     if (x < 0) {
         return false;
-    } else if (x < 10) {
+    }
+    if (x < 10) {
         return true;
     }
-    var len = 1, left, right;
+
+    var len = 1;
     while (x / (len *= 10) >= 10);
 
-    while (x !== 0) {
-        left = ~~(x / len);
-        right = x % 10;
-
-        if (left !== right) {
+    do {
+        // compare left num and right num
+        if (~~(x / len) !== x % 10) {
             return false;
         }
 
+        // remove first num and last num
         x = ~~(x % len / 10);
         len /= 100;
-    }
+    } while (x !== 0);
+
     return true;
 };
 
 // These solutions use extra space
 // var isPalindrome = function(x) {
-    // Solution 1:
-    // Runtime: 576 ms
-    // var str = x + '';
-    // for (var right, left = 0, l = str.length - 1; left < (right = l - left); ++left) {
-    //     if (str[left] !== str[right]) {
-    //         return false;
-    //     }
-    // }
-    // return true;
-
-    // Solution 2:
-    // Runtime: 728 ms
-    // return (x + '').split('').reverse().join('') === (x + '');
+//     // Solution 1:
+//     // Runtime: 576 ms
+//     var str = x + '';
+//     for (var right, left = 0, l = str.length - 1; left < (right = l - left); ++left) {
+//         if (str[left] !== str[right]) {
+//             return false;
+//         }
+//     }
+//     return true;
+//
+//     // Solution 2:
+//     // Runtime: 728 ms
+//     return (x + '').split('').reverse().join('') === (x + '');
 // };
 
 // Test cases
