@@ -9,6 +9,7 @@ LeetCode
 |102|[Binary Tree Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-level-order-traversal/)| [JavaScript](./algorithms/BinaryTreeLevelOrderTraversal.js)|Easy|
 |88|[Merge Sorted Array](https://oj.leetcode.com/problems/merge-sorted-array/)| [JavaScript](./algorithms/MergeTwoSortedArray.js)|Easy|
 |23|[Merge k Sorted Lists](https://oj.leetcode.com/problems/merge-k-sorted-lists/)| [JavaScript](./algorithms/MergeKSortedLists.js)|Hard|
+|22|[Generate Parentheses](https://oj.leetcode.com/problems/generate-parentheses/)| [JavaScript](./algorithms/GenerateParentheses.js)|Medium|
 |21|[Merge Two Sorted Lists](https://oj.leetcode.com/problems/merge-two-sorted-lists/)| [JavaScript](./algorithms/MergeTwoSortedList.js)|Easy|
 |20|[Valid Parentheses](https://oj.leetcode.com/problems/valid-parentheses/)| [JavaScript](./algorithms/ValidParentheses.js)|Easy|
 |19|[Remove Nth Node From End of List](https://oj.leetcode.com/problems/remove-nth-node-from-end-of-list/)| [JavaScript](./algorithms/RemoveNthNodeFromEndOfList.js)|Easy|
