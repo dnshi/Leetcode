@@ -17,9 +17,7 @@
 // The following code should be optimized.
 var longestPalindrome = function(s) {
     var tmp, index, max = '';
-    if (s.length === 1) {
-        return s;
-    }
+
     for (var i = 1, l = s.length; i < l; ++i) {
         if (s[i + 1] === s[i - 1]) {
             tmp = s[i - 1] + s[i] + s[i + 1];
@@ -53,7 +51,7 @@ var longestPalindrome = function(s) {
         }
     }
 
-    return max;
+    return max || s;
 };
 
 var testCase = 'abcbadddd';
