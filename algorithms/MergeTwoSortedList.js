@@ -27,10 +27,10 @@ var mergeTwoLists = function(l1, l2) {
 
     while (l1 && l2) {
         if (l1.val > l2.val) {
-            node.next = new ListNode(l2.val);
+            node.next = l2;
             l2 = l2.next;
         } else {
-            node.next = new ListNode(l1.val);
+            node.next = l1;
             l1 = l1.next;
         }
         node = node.next;
