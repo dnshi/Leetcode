@@ -49,6 +49,10 @@ var invertTree_recursive1 = function(root) {
     }
 };
 
+/**
+ * @param {TreeNode} root
+ * @return {TreeNode}
+ */
 var invertTree_recursive2 = function(root) {
     if (!root) {
         return root;
@@ -59,7 +63,12 @@ var invertTree_recursive2 = function(root) {
     return root;
 };
 
-// Main function
+/**
+ * Main function
+ *
+ * @param {TreeNode} root
+ * @return {TreeNode}
+ */
 var invertTree = function(root) {
     return new Date().getSeconds() % 2 ? invertTree_recursive1(root) : invertTree_recursive2(root);
 };
