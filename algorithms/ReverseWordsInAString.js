@@ -57,3 +57,6 @@ var reverseWords_regex = function(str) {
     var strArr = str.match(/\S+/g);
     return strArr ? strArr.reverse().join(' ') : '';
 };
+
+// Test case
+console.log(reverseWords('the sky is blue') === 'blue is sky the'); // true
