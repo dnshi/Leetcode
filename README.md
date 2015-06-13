@@ -5,6 +5,7 @@ LeetCode
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)| [JavaScript](./algorithms/ReverseLinkedList.js)|Easy|
 |136|[Single Number](https://oj.leetcode.com/problems/single-number/)| [JavaScript](./algorithms/SingleNumber.js)|Medium|
 |102|[Binary Tree Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-level-order-traversal/)| [JavaScript](./algorithms/BinaryTreeLevelOrderTraversal.js)|Easy|
 |88|[Merge Sorted Array](https://oj.leetcode.com/problems/merge-sorted-array/)| [JavaScript](./algorithms/MergeTwoSortedArray.js)|Easy|
