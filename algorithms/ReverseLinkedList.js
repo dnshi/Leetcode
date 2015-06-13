@@ -63,3 +63,8 @@ var reverseList_iterative = function(head) {
     }
     return head;
 };
+
+// Main function
+var reverseList = function(head) {
+    return new Date().getSeconds() % 2 ? reverseList_recursive(head) : reverseList_iterative(head);
+};
