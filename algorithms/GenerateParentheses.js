@@ -18,23 +18,25 @@
  * @return {string[]}
  */
 var generateParenthesis = function(n) {
-    var arr = [];
-    var f = function(str, left, right) {
+    var strArr = [];
+
+    bfs('', 0, 0);
+    return strArr;
+
+    // breadth-first search algorithm
+    function bfs(str, left, right) {
         if (left === n && right === n) {
-            arr.push(str);
+            strArr.push(str);
             return;
         }
 
         if (left !== n) {
-            f(str + '(', left + 1, right);
+            bfs(str + '(', left + 1, right);
         }
         if (left > right) {
-            f(str + ')', left, right + 1);
+            bfs(str + ')', left, right + 1);
         }
-    };
-
-    f('', 0, 0);
-    return arr;
+    }
 };
 
 // Test case
