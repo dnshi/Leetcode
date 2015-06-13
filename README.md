@@ -5,16 +5,21 @@ LeetCode
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|210|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)| [JavaScript](./algorithms/InvertBinaryTree.js)|Easy|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)| [JavaScript](./algorithms/ReverseLinkedList.js)|Easy|
 |136|[Single Number](https://oj.leetcode.com/problems/single-number/)| [JavaScript](./algorithms/SingleNumber.js)|Medium|
 |102|[Binary Tree Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-level-order-traversal/)| [JavaScript](./algorithms/BinaryTreeLevelOrderTraversal.js)|Easy|
 |88|[Merge Sorted Array](https://oj.leetcode.com/problems/merge-sorted-array/)| [JavaScript](./algorithms/MergeTwoSortedArray.js)|Easy|
+|24|[Swap Nodes in Pairs](https://oj.leetcode.com/problems/swap-nodes-in-pairs/)| |Medium|
 |23|[Merge k Sorted Lists](https://oj.leetcode.com/problems/merge-k-sorted-lists/)| [JavaScript](./algorithms/MergeKSortedLists.js)|Hard|
 |22|[Generate Parentheses](https://oj.leetcode.com/problems/generate-parentheses/)| [JavaScript](./algorithms/GenerateParentheses.js)|Medium|
 |21|[Merge Two Sorted Lists](https://oj.leetcode.com/problems/merge-two-sorted-lists/)| [JavaScript](./algorithms/MergeTwoSortedList.js)|Easy|
 |20|[Valid Parentheses](https://oj.leetcode.com/problems/valid-parentheses/)| [JavaScript](./algorithms/ValidParentheses.js)|Easy|
 |19|[Remove Nth Node From End of List](https://oj.leetcode.com/problems/remove-nth-node-from-end-of-list/)| [JavaScript](./algorithms/RemoveNthNodeFromEndOfList.js)|Easy|
+|18|[4Sum](https://oj.leetcode.com/problems/4sum/)| |Medium|
 |17|[Letter Combinations of a Phone Number](https://oj.leetcode.com/problems/letter-combinations-of-a-phone-number/)| [JavaScript](./algorithms/LetterCombinationsOfAPhoneNumber.js)|Medium|
+|16|[3Sum Closest](https://oj.leetcode.com/problems/3sum-closest/)| |Medium|
+|15|[3Sum](https://oj.leetcode.com/problems/3sum/)| |Medium|
 |14|[Longest Common Prefix](https://oj.leetcode.com/problems/longest-common-prefix/)| [JavaScript](./algorithms/LongestCommonPrefix.js)|Easy|
 |13|[Roman to Integer](https://oj.leetcode.com/problems/roman-to-integer/)| [JavaScript](./algorithms/RomanToInteger.js)|Easy|
 |12|[Integer to Roman](https://oj.leetcode.com/problems/integer-to-roman/)| [JavaScript](./algorithms/IntegerToRoman.js)|Medium|
