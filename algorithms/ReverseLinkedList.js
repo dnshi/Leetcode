@@ -26,11 +26,10 @@
  * @return {ListNode}
  */
 // Recursion
-var reverseList_recursion = function(head) {
-    if (!head || !head.next) {
+var reverseList_recursive = function(head) {
+    if (!head) {
         return head;
     }
-
     var next = head.next;
     head.next = null;
 
@@ -48,20 +47,19 @@ var reverseList_recursion = function(head) {
 };
 
 // Iteration
-var reverseList_iteration = function(head) {
-    if (!head || !head.next) {
+var reverseList_iterative = function(head) {
+    if (!head) {
         return head;
     }
-
-    var tmp, next;
+    var node, next;
     next = head.next;
     head.next = null;
 
     while (next) {
-        tmp = next.next;
+        node = next.next;
         next.next = head;
         head = next;
-        next = tmp;
+        next = node;
     }
     return head;
 };
