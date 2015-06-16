@@ -7,11 +7,17 @@ LeetCode
 |---| ----- | -------- | ---------- |
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)| [JavaScript](./algorithms/InvertBinaryTree.js)|Easy|
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)| [JavaScript](./algorithms/ImplementStackUsingQueues.js)|Medium|
+|219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)| [JavaScript](./algorithms/ContainsDuplicate.II.js)|Easy|
+|217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)| [JavaScript](./algorithms/ContainsDuplicate.js)|Easy|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)| [JavaScript](./algorithms/ReverseLinkedList.js)|Easy|
+|203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)| [JavaScript](./algorithms/RemoveLinkedListElements.js)|Easy|
+|191|[Number of 1 Bits](https://oj.leetcode.com/problems/number-of-1-bits/)| [JavaScript](./algorithms/NumberOf1Bits.js)|Easy|
+|190|[Reverse Bits](https://oj.leetcode.com/problems/reverse-bits/)| [JavaScript](./algorithms/ReverseBits.js)|Easy|
 |151|[Reverse Words in a String](https://oj.leetcode.com/problems/reverse-words-in-a-string/)| [JavaScript](./algorithms/ReverseWordsInAString.js)|Medium|
 |136|[Single Number](https://oj.leetcode.com/problems/single-number/)| [JavaScript](./algorithms/SingleNumber.js)|Medium|
 |102|[Binary Tree Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-level-order-traversal/)| [JavaScript](./algorithms/BinaryTreeLevelOrderTraversal.js)|Easy|
 |88|[Merge Sorted Array](https://oj.leetcode.com/problems/merge-sorted-array/)| [JavaScript](./algorithms/MergeTwoSortedArray.js)|Easy|
+|58|[Length of Last Word](https://oj.leetcode.com/problems/length-of-last-word/)| [JavaScript](./algorithms/LengthOfLastWord.js)|Easy|
 |24|[Swap Nodes in Pairs](https://oj.leetcode.com/problems/swap-nodes-in-pairs/)| |Medium|
 |23|[Merge k Sorted Lists](https://oj.leetcode.com/problems/merge-k-sorted-lists/)| [JavaScript](./algorithms/MergeKSortedLists.js)|Hard|
 |22|[Generate Parentheses](https://oj.leetcode.com/problems/generate-parentheses/)| [JavaScript](./algorithms/GenerateParentheses.js)|Medium|
