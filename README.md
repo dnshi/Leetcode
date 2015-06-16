@@ -11,6 +11,7 @@ LeetCode
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)| [JavaScript](./algorithms/ContainsDuplicate.js)|Easy|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)| [JavaScript](./algorithms/ReverseLinkedList.js)|Easy|
 |203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)| [JavaScript](./algorithms/RemoveLinkedListElements.js)|Easy|
+|202|[Happy Number](https://leetcode.com/problems/happy-number/)| [JavaScript](./algorithms/HappyNumber.js)|Easy|
 |191|[Number of 1 Bits](https://oj.leetcode.com/problems/number-of-1-bits/)| [JavaScript](./algorithms/NumberOf1Bits.js)|Easy|
 |190|[Reverse Bits](https://oj.leetcode.com/problems/reverse-bits/)| [JavaScript](./algorithms/ReverseBits.js)|Easy|
 |151|[Reverse Words in a String](https://oj.leetcode.com/problems/reverse-words-in-a-string/)| [JavaScript](./algorithms/ReverseWordsInAString.js)|Medium|
