@@ -10,6 +10,7 @@ LeetCode
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)| [JavaScript](./algorithms/ContainsDuplicate.II.js)|Easy|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)| [JavaScript](./algorithms/ContainsDuplicate.js)|Easy|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)| [JavaScript](./algorithms/ReverseLinkedList.js)|Easy|
+|205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)| [JavaScript](./algorithms/IsomorphicStrings.js)|Easy|
 |203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)| [JavaScript](./algorithms/RemoveLinkedListElements.js)|Easy|
 |202|[Happy Number](https://leetcode.com/problems/happy-number/)| [JavaScript](./algorithms/HappyNumber.js)|Easy|
 |191|[Number of 1 Bits](https://oj.leetcode.com/problems/number-of-1-bits/)| [JavaScript](./algorithms/NumberOf1Bits.js)|Easy|
