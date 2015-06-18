@@ -66,5 +66,5 @@ Stack.prototype.top = function() {
  * @returns {boolean}
  */
 Stack.prototype.empty = function() {
-    return this.stack.length ? false : true;
+    return !this.stack.length;
 };
