@@ -3,6 +3,8 @@ LeetCode
 
 ### LeetCode Algorithms
 
+(Notes: "&hearts;" means you need buy a book from Leetcode)
+
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)| [JavaScript](./algorithms/InvertBinaryTree.js)|Easy|
@@ -15,6 +17,10 @@ LeetCode
 |202|[Happy Number](https://leetcode.com/problems/happy-number/)| [JavaScript](./algorithms/HappyNumber.js)|Easy|
 |191|[Number of 1 Bits](https://oj.leetcode.com/problems/number-of-1-bits/)| [JavaScript](./algorithms/NumberOf1Bits.js)|Easy|
 |190|[Reverse Bits](https://oj.leetcode.com/problems/reverse-bits/)| [JavaScript](./algorithms/ReverseBits.js)|Easy|
+|171|[Excel Sheet Column Number](https://oj.leetcode.com/problems/excel-sheet-column-number/) | [JavaScript](./algorithms/ExcelSheetColumnNumber.js)|Easy|
+|170|[Two Sum III - Data structure design](https://oj.leetcode.com/problems/two-sum-iii-data-structure-design/) &hearts; | |Easy|
+|169|[Majority Element](https://oj.leetcode.com/problems/majority-element/) | [JavaScript](./algorithms/MajorityElement.js)|Easy|
+|168|[Excel Sheet Column Title](https://oj.leetcode.com/problems/excel-sheet-column-title/) | [JavaScript](./algorithms/
 |151|[Reverse Words in a String](https://oj.leetcode.com/problems/reverse-words-in-a-string/)| [JavaScript](./algorithms/ReverseWordsInAString.js)|Medium|
 |136|[Single Number](https://oj.leetcode.com/problems/single-number/)| [JavaScript](./algorithms/SingleNumber.js)|Medium|
 |102|[Binary Tree Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-level-order-traversal/)| [JavaScript](./algorithms/BinaryTreeLevelOrderTraversal.js)|Easy|
