@@ -20,7 +20,7 @@ LeetCode
 |171|[Excel Sheet Column Number](https://oj.leetcode.com/problems/excel-sheet-column-number/) | [JavaScript](./algorithms/ExcelSheetColumnNumber.js)|Easy|
 |170|[Two Sum III - Data structure design](https://oj.leetcode.com/problems/two-sum-iii-data-structure-design/) &hearts; | |Easy|
 |169|[Majority Element](https://oj.leetcode.com/problems/majority-element/) | [JavaScript](./algorithms/MajorityElement.js)|Easy|
-|168|[Excel Sheet Column Title](https://oj.leetcode.com/problems/excel-sheet-column-title/) | [JavaScript](./algorithms/
+|168|[Excel Sheet Column Title](https://oj.leetcode.com/problems/excel-sheet-column-title/) | [JavaScript](./algorithms/ExcelSheetColumnTitle.js)|Easy|
 |151|[Reverse Words in a String](https://oj.leetcode.com/problems/reverse-words-in-a-string/)| [JavaScript](./algorithms/ReverseWordsInAString.js)|Medium|
 |136|[Single Number](https://oj.leetcode.com/problems/single-number/)| [JavaScript](./algorithms/SingleNumber.js)|Medium|
 |102|[Binary Tree Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-level-order-traversal/)| [JavaScript](./algorithms/BinaryTreeLevelOrderTraversal.js)|Easy|
