@@ -32,8 +32,7 @@ var twoSum = function(nums, target) {
 
         // find the second one
         if (hash[n] > 0) {
-            result.push(hash[n]);
-            result.push(i + 1);
+            result.push(hash[n], i + 1);
             break;
         } else {
             // store the index
