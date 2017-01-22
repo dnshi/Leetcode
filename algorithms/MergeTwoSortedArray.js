@@ -21,22 +21,13 @@
  * @return {void} Do not return anything, modify nums1 in-place instead.
  */
 var merge = function(nums1, m, nums2, n) {
-    var n1Index = 0;
-
-    // Trim trailing 0s on nums1
-    // Runtime: 152 ms
-    nums1.splice(m);
-
-    // Runtime: 141 ms
-    // while (m != nums1.length) {
-    //     nums1.pop();
-    // }
-
-    for (var n2Index = 0; n2Index < n; n2Index++) {
-        while (nums2[n2Index] > nums1[n1Index]) {
-            n1Index++;
-        }
-        nums1.splice(n1Index, 0, nums2[n2Index]);
+    let i = m - 1, j = n - 1, k = m + n - 1
+    
+    while(i >= 0 && j >= 0) {
+        nums1[k--] = nums1[i] > nums2[j] ? nums1[i--] : nums2[j--]
+    }
+    while(j >= 0) {
+        nums1[k--] = nums2[j--]
     }
 };
 
