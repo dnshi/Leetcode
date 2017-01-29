@@ -30,21 +30,14 @@
  * @return {number}
  */
 var reverse = function(x) {
-    var result;
-    var overflow = 2147483648; // Math.pow(2, 31)
-    var arr = (x + '').split('');
-
-    if (x < 0) {
-        arr.shift();
-        result = -arr.reverse().join('');
-    } else {
-        result = +arr.reverse().join('');
+    let result = 0
+    while(x) {
+        result = result * 10 + x % 10 
+        x = ~~(x / 10)
     }
-
-    if (result <= -overflow || result >= overflow - 1) {
-        result = 0;
-    }
-    return result;
+    if (result > 2147483648 || result < -2147483649) result = 0
+    
+    return result
 };
 
 // Test cases
