@@ -24,38 +24,11 @@
  **********************************************************************************/
 
 /**
- * Manually get all words
- *
  * @param {string} str
  * @returns {string}
  */
 var reverseWords = function(str) {
-    var strArr = [];
-    var word = '';
-
-    for (var i = str.length - 1; i >= 0; --i) {
-        if (str[i] !== ' ') {
-            word = str[i] + word;
-        } else if (word) {
-            strArr.push(word);
-            word = '';
-        }
-    }
-    if (str[0] !== ' ') {
-        strArr.push(word);
-    }
-    return strArr.join(' ');
-};
-
-/**
- * Using Regex to get all words
- *
- * @param {string} str
- * @returns {string}
- */
-var reverseWords_regex = function(str) {
-    var strArr = str.match(/\S+/g);
-    return strArr ? strArr.reverse().join(' ') : '';
+    return str.trim().split(/ +/).reverse().join(' ')
 };
 
 // Test case
