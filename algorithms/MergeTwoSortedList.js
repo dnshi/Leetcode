@@ -22,19 +22,17 @@
  * @return {ListNode}
  */
 var mergeTwoLists = function(l1, l2) {
-    var result, node;
-    result = node = new ListNode();
-
-    while (l1 && l2) {
-        if (l1.val > l2.val) {
-            node.next = l2;
-            l2 = l2.next;
-        } else {
-            node.next = l1;
-            l1 = l1.next;
-        }
-        node = node.next;
+    let newList = null;
+    
+    if (l1 === null || l2 === null) {
+        return l1 || l2
     }
-    node.next = l1 ? l1 : l2;
-    return result.next;
+    
+    if (l1.val < l2.val) {
+        (newList = new ListNode(l1.val)).next = mergeTwoLists(l1.next, l2)
+    } else {
+        (newList = new ListNode(l2.val)).next = mergeTwoLists(l1, l2.next)
+    }
+    
+    return newList
 };
