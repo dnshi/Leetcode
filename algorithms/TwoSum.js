@@ -24,22 +24,15 @@
  * @return {number[]}
  */
 var twoSum = function(nums, target) {
-    var hash = {};
-    var result = [];
-
-    for (var i = 0, l = nums.length; i < l; ++i) {
-        var n = nums[i];
-
-        // find the second one
-        if (hash[n] > 0) {
-            result.push(hash[n], i + 1);
-            break;
-        } else {
-            // store the index
-            hash[target - n] = i + 1;
+    const hash = {};
+    for (let n, i = 0, l = nums.length; i < l; ++i) {
+        n = nums[i];
+        
+        if (hash[n] >= 0) {
+            return [hash[n], i]
         }
+        hash[target - n] = i
     }
-    return result;
 };
 
 var testCase = [2, 7, 11, 15];
