@@ -22,34 +22,24 @@
  * @return {string[]}
  */
 var letterCombinations = function(digits) {
-    return f([], digits);
-};
-
-var map = {
-    2: ['a', 'b', 'c'],
-    3: ['d', 'e', 'f'],
-    4: ['g', 'h', 'i'],
-    5: ['j', 'k', 'l'],
-    6: ['m', 'n', 'o'],
-    7: ['p', 'q', 'r', 's'],
-    8: ['t', 'u', 'v'],
-    9: ['w', 'x', 'y', 'z']
-};
-
-function f(arr, digits) {
-    if (!digits.length) {
-        return arr;
+    let result
+    const digitMap = {
+        2: ['a', 'b', 'c'],
+        3: ['d', 'e', 'f'],
+        4: ['g', 'h', 'i'],
+        5: ['j', 'k', 'l'],
+        6: ['m', 'n', 'o'],
+        7: ['p', 'q', 'r', 's'],
+        8: ['t', 'u', 'v'],
+        9: ['w', 'x', 'y', 'z']
     }
-    var num = digits[0]; // first char
-    var tmp = arr.length ? [] : map[num];
-
-    arr.forEach(function(v) {
-        map[num].forEach(function(m) {
-            tmp.push(v + m);
-        });
-    });
-    return f(tmp, digits.substring(1));
-}
+    
+    return [...digits.substring(1)].reduce((arr, d) => {
+        result = []
+        arr.forEach(a => digitMap[d].forEach(b => result.push(a + b)))
+        return result
+    }, digitMap[digits[0]] || [])
+};
 
 
 // Test case
