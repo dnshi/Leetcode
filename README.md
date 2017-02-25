@@ -6,6 +6,7 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) | [JavaScript](./algorithms/NextGreaterElementI.js)|Easy|
 |482|[License Key Formatting](https://leetcode.com/problems/license-key-formatting) | [JavaScript](./algorithms/LicenseKeyFormatting.js)|Medium|
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)| [JavaScript](./algorithms/InvertBinaryTree.js)|Easy|
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)| [JavaScript](./algorithms/ImplementStackUsingQueues.js)|Medium|
