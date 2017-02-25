@@ -19,6 +19,25 @@
 **********************************************************************************/
 
 /**
+ * Iteration
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number}
+ */
+var searchInsert = function(nums, target) {
+    let mid, head = 0, tail = nums.length - 1
+    while (head <= tail) {
+        mid = (head + tail) >> 1
+    
+        if (nums[mid] === target) return mid
+        if (nums[mid] < target) head = mid + 1
+        if (nums[mid] > target) tail = mid - 1
+    }
+    return head
+};
+
+/**
+ * Recursion
  * @param {number[]} nums
  * @param {number} target
  * @return {number}
@@ -36,3 +55,4 @@ function helper(arr, target, head, tail) {
     if (arr[mid] < target) return helper(arr, target, mid + 1, tail)
     if (arr[mid] > target) return helper(arr, target, head, mid - 1)
 }
+
