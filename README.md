@@ -26,6 +26,7 @@
 |88|[Merge Sorted Array](https://oj.leetcode.com/problems/merge-sorted-array/)| [JavaScript](./algorithms/MergeTwoSortedArray.js)|Easy|
 |66|[Plus One](https://oj.leetcode.com/problems/plus-one/)| [JavaScript](./algorithms/PlusOne.js)|Easy|
 |58|[Length of Last Word](https://oj.leetcode.com/problems/length-of-last-word/)| [JavaScript](./algorithms/LengthOfLastWord.js)|Easy|
+|35|[Search Insert Position](https://oj.leetcode.com/problems/search-insert-position/)| [JavaScript](./algorithms/SearchInsertPosition.js)|Easy|
 |24|[Swap Nodes in Pairs](https://oj.leetcode.com/problems/swap-nodes-in-pairs/)| |Medium|
 |23|[Merge k Sorted Lists](https://oj.leetcode.com/problems/merge-k-sorted-lists/)| [JavaScript](./algorithms/MergeKSortedLists.js)|Hard|
 |22|[Generate Parentheses](https://oj.leetcode.com/problems/generate-parentheses/)| [JavaScript](./algorithms/GenerateParentheses.js)|Medium|
@@ -49,7 +50,7 @@
 |4|[Median of Two Sorted Arrays](https://oj.leetcode.com/problems/median-of-two-sorted-arrays/)| [JavaScript](./algorithms/MedianOfTwoSortedArrays.js)|Hard|
 |3|[Longest Substring Without Repeating Characters](https://oj.leetcode.com/problems/longest-substring-without-repeating-characters/)| [JavaScript](./algorithms/LongestSubstringWithoutRepeatingCharacters.js)|Medium|
 |2|[Add Two Numbers](https://oj.leetcode.com/problems/add-two-numbers/)| [JavaScript](./algorithms/AddTwoNumbers.js)|Medium|
-|1|[Two Sum](https://oj.leetcode.com/problems/two-sum/)| [JavaScript](./algorithms/TwoSum.js)|Medium|
+|1|[Two Sum](https://oj.leetcode.com/problems/two-sum/)| [JavaScript](./algorithms/TwoSum.js)|Easy|
 
 
 ### LeetCode Shell
