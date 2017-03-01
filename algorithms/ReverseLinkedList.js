@@ -27,24 +27,15 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-var reverseList_recursive = function(head) {
-    if (!head) {
-        return head;
-    }
-    var next = head.next;
-    head.next = null;
+var reverseList = function(head) {
+    if (!head || !head.next) return head
 
-    return reverse(next, head);
-
-    function reverse(curr, prev) {
-        if (!curr) {
-            return prev;
-        }
-        next = curr.next;
-        curr.next = prev;
-
-        return reverse(next, curr);
-    }
+    let node = reverseList(head.next)
+    
+    head.next.next = head
+    head.next = null
+    
+    return node
 };
 
 /**
@@ -53,29 +44,13 @@ var reverseList_recursive = function(head) {
  * @param {ListNode} head
  * @return {ListNode}
  */
-var reverseList_iterative = function(head) {
-    if (!head) {
-        return head;
-    }
-    var node, next;
-    next = head.next;
-    head.next = null;
-
-    while (next) {
-        node = next.next;
-        next.next = head;
-        head = next;
-        next = node;
-    }
-    return head;
-};
-
-/**
- * Main function
- *
- * @param {ListNode} head
- * @return {ListNode}
- */
 var reverseList = function(head) {
-    return new Date().getSeconds() % 2 ? reverseList_recursive(head) : reverseList_iterative(head);
+    let [prev, next] = [null, null]
+    while (head) {
+        next = head.next
+        head.next = prev
+        prev = head
+        head = next
+    }
+    return prev
 };
