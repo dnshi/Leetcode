@@ -30,6 +30,7 @@
 |88|[Merge Sorted Array](https://oj.leetcode.com/problems/merge-sorted-array/)| [JavaScript](./algorithms/MergeTwoSortedArray.js)|Easy|
 |66|[Plus One](https://oj.leetcode.com/problems/plus-one/)| [JavaScript](./algorithms/PlusOne.js)|Easy|
 |58|[Length of Last Word](https://oj.leetcode.com/problems/length-of-last-word/)| [JavaScript](./algorithms/LengthOfLastWord.js)|Easy|
+|53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | [JavaScript](./algorithms/MaximumSubarray.js)|Easy|
 |35|[Search Insert Position](https://oj.leetcode.com/problems/search-insert-position/)| [JavaScript](./algorithms/SearchInsertPosition.js)|Easy|
 |24|[Swap Nodes in Pairs](https://oj.leetcode.com/problems/swap-nodes-in-pairs/)| |Medium|
 |23|[Merge k Sorted Lists](https://oj.leetcode.com/problems/merge-k-sorted-lists/)| [JavaScript](./algorithms/MergeKSortedLists.js)|Hard|
