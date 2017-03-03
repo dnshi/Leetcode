@@ -58,47 +58,13 @@
  * @param {TreeNode} root
  * @return {number[][]}
  */
-var levelOrder = function(root) {
-    var arr = [];
+var levelOrder = function(root, index = 0, arr = []) {
     if (root) {
-        f(arr, root, 0);
+        if (!arr[index]) arr[index] = []
+        arr[index].push(root.val)
+        levelOrder(root.left, index + 1, arr)
+        levelOrder(root.right, index + 1, arr)    
     }
-    return arr;
+    
+    return arr
 };
-
-function f(arr, v, i) {
-    if (!arr[i]) {
-        arr[i] = [];
-    }
-
-    arr[i].push(v.val);
-
-    v.left && f(arr, v.left, i + 1);
-    v.right && f(arr, v.right, i + 1);
-}
-
-var testCase = {
-    val: 3,
-    left: {
-        val: 9,
-        left: null,
-        right: null
-    },
-    right: {
-        val: 20,
-        left: {
-            val: 15,
-            left: null,
-            right: null
-        },
-        right: {
-            val: 7,
-            left: null,
-            right: null
-        }
-    }
-};
-
-var result = levelOrder(testCase);
-
-console.log(result.toString() === '3,9,20,15,7'); // true
