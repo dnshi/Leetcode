@@ -25,8 +25,6 @@
  * @return {number}
  */
 var maxSubArray = function(nums) {
-    if (!nums.length) return -Infinity
-
     let largestSum = nums[0]
     let sum = nums[0]
     for (let i = 1; i < nums.length; i++) {
