@@ -30,6 +30,7 @@
 |102|[Binary Tree Level Order Traversal](https://oj.leetcode.com/problems/binary-tree-level-order-traversal/)| [JavaScript](./algorithms/BinaryTreeLevelOrderTraversal.js)|Easy|
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | [JavaScript](./algorithms/BinaryTreeInorderTraversal.js)|Medium|
 |88|[Merge Sorted Array](https://oj.leetcode.com/problems/merge-sorted-array/)| [JavaScript](./algorithms/MergeTwoSortedArray.js)|Easy|
+|80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii) | [JavaScript](./algorithms/RemoveDuplicatesFromSortedArray_II.js)|Medium|
 |66|[Plus One](https://oj.leetcode.com/problems/plus-one/)| [JavaScript](./algorithms/PlusOne.js)|Easy|
 |58|[Length of Last Word](https://oj.leetcode.com/problems/length-of-last-word/)| [JavaScript](./algorithms/LengthOfLastWord.js)|Easy|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | [JavaScript](./algorithms/MaximumSubarray.js)|Easy|
