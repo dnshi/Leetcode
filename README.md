@@ -6,6 +6,7 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|515|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row) | [JavaScript](./algorithms/FindLargestValueInEachTreeRow.js)|Medium|
 |504|[Base 7](https://leetcode.com/problems/base-7) | [JavaScript](./algorithms/Base7.js)|Easy|
 |496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) | [JavaScript](./algorithms/NextGreaterElementI.js)|Easy|
 |482|[License Key Formatting](https://leetcode.com/problems/license-key-formatting) | [JavaScript](./algorithms/LicenseKeyFormatting.js)|Medium|
