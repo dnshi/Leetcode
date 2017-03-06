@@ -36,14 +36,15 @@
 var inorderTraversal = function(root) {
     const stack = []
     const result = []
-    while (stack.length || root) {
-        if (root) {
-            stack.push(root)
-            root = root.left
-        } else {
+    while (root) {
+        if (root.right) stack.push(root.right)
+        stack.push(root.val)
+        if (root.left) stack.push(root.left)
+        
+        root = stack.pop()
+        while (root !== void(0) && typeof root !== 'object') {
+            result.push(root)
             root = stack.pop()
-            result.push(root.val)
-            root = root.right
         }
     }
     return result
