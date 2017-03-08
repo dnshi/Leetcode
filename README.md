@@ -12,6 +12,7 @@
 |504|[Base 7](https://leetcode.com/problems/base-7) | [JavaScript](./algorithms/Base7.js)|Easy|
 |496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) | [JavaScript](./algorithms/NextGreaterElementI.js)|Easy|
 |482|[License Key Formatting](https://leetcode.com/problems/license-key-formatting) | [JavaScript](./algorithms/LicenseKeyFormatting.js)|Medium|
+|387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | [JavaScript](./algorithms/FirstUniqueCharacterInAString.js)|Easy|
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)| [JavaScript](./algorithms/InvertBinaryTree.js)|Easy|
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)| [JavaScript](./algorithms/ImplementStackUsingQueues.js)|Medium|
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)| [JavaScript](./algorithms/ContainsDuplicate.II.js)|Easy|
