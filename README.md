@@ -6,6 +6,7 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|532|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array) | [JavaScript](./algorithms/KdiffPairsInAnArray.js)|Easy|
 |524|[Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting) | [JavaScript](./algorithms/LongestWordInDictionaryThroughDeleting.js)|Medium|
 |515|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row) | [JavaScript](./algorithms/FindLargestValueInEachTreeRow.js)|Medium|
 |520|[Detect Capital](https://leetcode.com/problems/detect-capital) | [JavaScript](./algorithms/DetectCapital.js)|Easy|
