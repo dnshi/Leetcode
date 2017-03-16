@@ -6,6 +6,7 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii) | [JavaScript](./algorithms/ReverseString_II.js)|Easy|
 |532|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array) | [JavaScript](./algorithms/KdiffPairsInAnArray.js)|Easy|
 |530|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst) | [JavaScript](./algorithms/MinimumAbsoluteDifferenceInBST.js)|Easy|
 |524|[Longest Word in Dictionary through Deleting](https://leetcode.com/problems/longest-word-in-dictionary-through-deleting) | [JavaScript](./algorithms/LongestWordInDictionaryThroughDeleting.js)|Medium|
