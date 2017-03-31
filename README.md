@@ -20,6 +20,7 @@
 |482|[License Key Formatting](https://leetcode.com/problems/license-key-formatting) | [JavaScript](./algorithms/LicenseKeyFormatting.js)|Medium|
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array) | [JavaScript](./algorithms/FindAllNumbersDisappearedInAnArray.js)|Easy|
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array) | [JavaScript](./algorithms/FindAllDuplicatesInAnArray.js)|Medium|
+|434|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | [JavaScript](./algorithms/NumberOfSegmentsInAString.js)|Easy|
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | [JavaScript](./algorithms/FirstUniqueCharacterInAString.js)|Easy|
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)| [JavaScript](./algorithms/InvertBinaryTree.js)|Easy|
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)| [JavaScript](./algorithms/ImplementStackUsingQueues.js)|Medium|
