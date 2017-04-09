@@ -24,6 +24,7 @@
 |434|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | [JavaScript](./algorithms/NumberOfSegmentsInAString.js)|Easy|
 |409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome) | [JavaScript](./algorithms/LongestPalindrome.js)|Easy|
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | [JavaScript](./algorithms/FirstUniqueCharacterInAString.js)|Easy|
+|344|[Reverse String](https://leetcode.com/problems/reverse-string) | [JavaScript](./algorithms/ReverseString.js)|Easy|
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)| [JavaScript](./algorithms/InvertBinaryTree.js)|Easy|
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)| [JavaScript](./algorithms/ImplementStackUsingQueues.js)|Medium|
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)| [JavaScript](./algorithms/ContainsDuplicate.II.js)|Easy|
