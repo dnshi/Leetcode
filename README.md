@@ -7,6 +7,7 @@
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | [JavaScript](./algorithms/ReverseWordsInAString_III.js)|Easy|
+|551|[Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i) | [JavaScript](./algorithms/StudentAttendanceRecord_I.js)|Easy|
 |543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree) | [JavaScript](./algorithms/DiameterOfBinaryTree.js)|Easy|
 |541|[Reverse String II](https://leetcode.com/problems/reverse-string-ii) | [JavaScript](./algorithms/ReverseString_II.js)|Easy|
 |532|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array) | [JavaScript](./algorithms/KdiffPairsInAnArray.js)|Easy|
