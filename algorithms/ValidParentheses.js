@@ -18,19 +18,23 @@
  * @return {boolean}
  */
 var isValid = function(s) {
-    var stack = [];
-    for (var i = 0, l = s.length; i < l; ++i) {
-        if (s[i] === '(' || s[i] === '{' || s[i] === '[') {
-            stack.push(s[i]);
-        } else if (s[i] === ')' && stack.pop() !== '(') {
-            return false;
-        } else if (s[i] === '}' && stack.pop() !== '{') {
-            return false;
-        } else if (s[i] === ']' && stack.pop() !== '[') {
-            return false;
+    const stack = []
+    const openChars = new Set('({[');
+    const closeChars = {
+        '(': ')',
+        '{': '}',
+        '[': ']',
+    }
+    
+    for (let ch of s) {
+        if (openChars.has(ch)) {
+            stack.push(ch)
+        } else if (closeChars[stack.pop()] !== ch) {
+            return false
         }
     }
-    return stack.length ? false : true;
+    
+    return stack.length === 0
 };
 
 // Test cases
