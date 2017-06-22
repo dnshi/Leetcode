@@ -26,6 +26,7 @@
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array) | [JavaScript](./algorithms/FindAllNumbersDisappearedInAnArray.js)|Easy|
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array) | [JavaScript](./algorithms/FindAllDuplicatesInAnArray.js)|Medium|
 |434|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | [JavaScript](./algorithms/NumberOfSegmentsInAString.js)|Easy|
+|412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz) | [JavaScript](./algorithms/FizzBuzz.js)||
 |409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome) | [JavaScript](./algorithms/LongestPalindrome.js)|Easy|
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | [JavaScript](./algorithms/FirstUniqueCharacterInAString.js)|Easy|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string) | [JavaScript](./algorithms/ReverseString.js)|Easy|
