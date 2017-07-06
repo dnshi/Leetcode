@@ -45,12 +45,12 @@ var reverseList = function(head) {
  * @return {ListNode}
  */
 var reverseList = function(head) {
-    let [prev, next] = [null, null]
+    let next, prev = null
+    
     while (head) {
-        next = head.next
-        head.next = prev
-        prev = head
-        head = next
+        [next, head.next] = [head.next, prev];
+        [prev, head] = [head, next]
     }
+    
     return prev
 };
