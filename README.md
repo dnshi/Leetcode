@@ -6,6 +6,7 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | [JavaScript](./algorithms/MaximumProductOfThreeNumbers.js)|Easy|
 |617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees) | [JavaScript](./algorithms/MergeTwoBinaryTrees.js)|Easy|
 |563|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt) | [JavaScript](./algorithms/BinaryTreeTilt.js)|Easy|
 |561|[Array Partition I](https://leetcode.com/problems/array-partition-i) | [JavaScript](./algorithms/ArrayPartition_I.js)|Easy|
