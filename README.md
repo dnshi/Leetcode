@@ -8,6 +8,7 @@
 |---| ----- | -------- | ---------- |
 |633|[Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers) | [JavaScript](./algorithms/SumOfSquareNumbers.js)|Easy|
 |628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | [JavaScript](./algorithms/MaximumProductOfThreeNumbers.js)|Easy|
+|623|[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree) | [JavaScript](./algorithms/AddOneRowToTree.js)|Medium|
 |617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees) | [JavaScript](./algorithms/MergeTwoBinaryTrees.js)|Easy|
 |563|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt) | [JavaScript](./algorithms/BinaryTreeTilt.js)|Easy|
 |561|[Array Partition I](https://leetcode.com/problems/array-partition-i) | [JavaScript](./algorithms/ArrayPartition_I.js)|Easy|
