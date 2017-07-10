@@ -27,6 +27,7 @@
 |504|[Base 7](https://leetcode.com/problems/base-7) | [JavaScript](./algorithms/Base7.js)|Easy|
 |496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i) | [JavaScript](./algorithms/NextGreaterElementI.js)|Easy|
 |482|[License Key Formatting](https://leetcode.com/problems/license-key-formatting) | [JavaScript](./algorithms/LicenseKeyFormatting.js)|Medium|
+|461|[Hamming Distance](https://leetcode.com/problems/hamming-distance) | [JavaScript](./algorithms/HammingDistance.js)|Easy|
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array) | [JavaScript](./algorithms/FindAllNumbersDisappearedInAnArray.js)|Easy|
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array) | [JavaScript](./algorithms/FindAllDuplicatesInAnArray.js)|Medium|
 |434|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | [JavaScript](./algorithms/NumberOfSegmentsInAString.js)|Easy|
