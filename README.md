@@ -2,8 +2,6 @@
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/dnshi/Leetcode/blob/master/LICENSE.md)
 ### LeetCode Algorithms
 
-(Notes: "&hearts;" means you need buy a book from Leetcode)
-
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree) | [JavaScript](./algorithms/AverageOfLevelsInBinaryTree.js)|Easy|
@@ -48,7 +46,6 @@
 |191|[Number of 1 Bits](https://oj.leetcode.com/problems/number-of-1-bits/)| [JavaScript](./algorithms/NumberOf1Bits.js)|Easy|
 |190|[Reverse Bits](https://oj.leetcode.com/problems/reverse-bits/)| [JavaScript](./algorithms/ReverseBits.js)|Easy|
 |171|[Excel Sheet Column Number](https://oj.leetcode.com/problems/excel-sheet-column-number/) | [JavaScript](./algorithms/ExcelSheetColumnNumber.js)|Easy|
-|170|[Two Sum III - Data structure design](https://oj.leetcode.com/problems/two-sum-iii-data-structure-design/) &hearts; | |Easy|
 |169|[Majority Element](https://oj.leetcode.com/problems/majority-element/) | [JavaScript](./algorithms/MajorityElement.js)|Easy|
 |168|[Excel Sheet Column Title](https://oj.leetcode.com/problems/excel-sheet-column-title/) | [JavaScript](./algorithms/ExcelSheetColumnTitle.js)|Easy|
 |155|[Min Stack](https://leetcode.com/problems/min-stack) | [JavaScript](./algorithms/MinStack.js)|Easy|
