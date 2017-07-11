@@ -25,11 +25,11 @@
  * @return {number}
  */
 var maxSubArray = function(nums) {
-    let largestSum = nums[0]
-    let sum = nums[0]
-    for (let i = 1; i < nums.length; i++) {
+    let max = nums[0]
+
+    for (let i = 1, sum = nums[0]; i < nums.length; ++i) {
         sum = Math.max(sum + nums[i], nums[i])
-        largestSum = Math.max(largestSum, sum)
+        max = Math.max(max, sum)
     }
-    return largestSum
+    return max
 };
