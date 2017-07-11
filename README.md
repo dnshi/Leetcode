@@ -64,6 +64,7 @@
 |88|[Merge Sorted Array](https://oj.leetcode.com/problems/merge-sorted-array/)| [JavaScript](./algorithms/MergeTwoSortedArray.js)|Easy|
 |80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii) | [JavaScript](./algorithms/RemoveDuplicatesFromSortedArray_II.js)|Medium|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | [JavaScript](./algorithms/ClimbingStairs.js)|Easy|
+|69|[Sqrt(x)](https://leetcode.com/problems/sqrtx) | [JavaScript](./algorithms/SqrtX.js)|Easy|
 |66|[Plus One](https://oj.leetcode.com/problems/plus-one/)| [JavaScript](./algorithms/PlusOne.js)|Easy|
 |58|[Length of Last Word](https://oj.leetcode.com/problems/length-of-last-word/)| [JavaScript](./algorithms/LengthOfLastWord.js)|Easy|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | [JavaScript](./algorithms/MaximumSubarray.js)|Easy|
