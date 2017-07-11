@@ -67,6 +67,7 @@
 |58|[Length of Last Word](https://oj.leetcode.com/problems/length-of-last-word/)| [JavaScript](./algorithms/LengthOfLastWord.js)|Easy|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | [JavaScript](./algorithms/MaximumSubarray.js)|Easy|
 |35|[Search Insert Position](https://oj.leetcode.com/problems/search-insert-position/)| [JavaScript](./algorithms/SearchInsertPosition.js)|Easy|
+|28|[Implement strStr()](https://leetcode.com/problems/implement-strstr) | [JavaScript](./algorithms/ImplementStrStr.js)|Easy|
 |27|[Remove Element](https://leetcode.com/problems/remove-element) | [JavaScript](./algorithms/RemoveElement.js)|Easy|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | [JavaScript](./algorithms/RemoveDuplicatesFromSortedArray.js)|Easy|
 |25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group) | [JavaScript](./algorithms/ReverseNodesInK-Group.js)|Hard|
