@@ -52,6 +52,7 @@
 |155|[Min Stack](https://leetcode.com/problems/min-stack) | [JavaScript](./algorithms/MinStack.js)|Easy|
 |151|[Reverse Words in a String](https://oj.leetcode.com/problems/reverse-words-in-a-string/)| [JavaScript](./algorithms/ReverseWordsInAString.js)|Medium|
 |136|[Single Number](https://oj.leetcode.com/problems/single-number/)| [JavaScript](./algorithms/SingleNumber.js)|Medium|
+|119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii) | [JavaScript](./algorithms/PascalsTriangle_II.js)|Easy|
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle) | [JavaScript](./algorithms/PascalsTriangle.js)|Easy|
 |111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree) | [JavaScript](./algorithms/MinimumDepthOfBinaryTree.js)|Easy|
 |108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | [JavaScript](./algorithms/ConvertSortedArrayToBinarySearchTree.js)|Easy|
