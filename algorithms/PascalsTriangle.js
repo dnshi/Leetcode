@@ -34,3 +34,21 @@ var generate = function(numRows) {
     }
     return result
 };
+
+
+/**
+ * @param {number} numRows
+ * @return {number[][]}
+ */
+var generate = function(numRows) {
+    const result = []
+
+    for (let row = [], i = 0; i < numRows; ++i) {
+        row.push(1)
+        for (let j = i - 1; j > 0; --j) {
+            row[j] = row[j - 1] + row[j]
+        }
+        result.push(row.slice())
+    }
+    return result
+};
