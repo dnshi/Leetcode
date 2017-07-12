@@ -26,9 +26,8 @@
  */
 var generate = function(numRows) {
     const result = []
-    let row, prevRow
 
-    for (let i = 0; i < numRows; ++i) {
+    for (let row, prevRow, i = 0; i < numRows; ++i) {
         [row, prevRow] = [[1], result[i - 1] || []]
         prevRow.forEach((n, j) => row.push(n + (prevRow[j + 1] || 0)))
         result.push(row)
