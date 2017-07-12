@@ -52,6 +52,7 @@
 |155|[Min Stack](https://leetcode.com/problems/min-stack) | [JavaScript](./algorithms/MinStack.js)|Easy|
 |151|[Reverse Words in a String](https://oj.leetcode.com/problems/reverse-words-in-a-string/)| [JavaScript](./algorithms/ReverseWordsInAString.js)|Medium|
 |136|[Single Number](https://oj.leetcode.com/problems/single-number/)| [JavaScript](./algorithms/SingleNumber.js)|Medium|
+|121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | [JavaScript](./algorithms/BestTimeToBuyAndSellStock.js)|Easy|
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii) | [JavaScript](./algorithms/PascalsTriangle_II.js)|Easy|
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle) | [JavaScript](./algorithms/PascalsTriangle.js)|Easy|
 |111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree) | [JavaScript](./algorithms/MinimumDepthOfBinaryTree.js)|Easy|
