@@ -4,6 +4,7 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|643|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i) | [JavaScript](./algorithms/MaximumAverageSubarray_I.js)|Easy|
 |637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree) | [JavaScript](./algorithms/AverageOfLevelsInBinaryTree.js)|Easy|
 |633|[Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers) | [JavaScript](./algorithms/SumOfSquareNumbers.js)|Easy|
 |628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | [JavaScript](./algorithms/MaximumProductOfThreeNumbers.js)|Easy|
