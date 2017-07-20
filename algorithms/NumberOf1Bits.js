@@ -19,8 +19,9 @@
  * @return {number}
  */
 var hammingWeight = function(n) {
-    return n.toString(2).split('1').length - 1;
+    let result = 0
+    do {
+        result += n & 1
+    } while (n >>>= 1)
+    return result
 };
-
-// Test case
-console.log(hammingWeight(11) === 3); // true
