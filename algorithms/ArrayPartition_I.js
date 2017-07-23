@@ -28,5 +28,5 @@
  * @return {number}
  */
 var arrayPairSum = function(nums) {
-    return nums.sort((a, b) => b - a).reduce((sum, v, i) => sum += i % 2 ? v : 0, 0)
+    return nums.sort((a, b) => b - a).reduce((sum, v, i) => sum + (i % 2 ? v : 0), 0)
 };
