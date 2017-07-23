@@ -22,7 +22,8 @@
  * @return {string[]}
  */
 var letterCombinations = function(digits) {
-    let result
+    let result,
+    const [first, ...rest] = digits
     const digitMap = {
         2: ['a', 'b', 'c'],
         3: ['d', 'e', 'f'],
@@ -33,14 +34,10 @@ var letterCombinations = function(digits) {
         8: ['t', 'u', 'v'],
         9: ['w', 'x', 'y', 'z']
     }
-    
-    return [...digits.substring(1)].reduce((arr, d) => {
+
+    return rest.reduce((arr, d) => {
         result = []
         arr.forEach(a => digitMap[d].forEach(b => result.push(a + b)))
         return result
-    }, digitMap[digits[0]] || [])
+    }, digitMap[first] || [])
 };
-
-
-// Test case
-console.log(letterCombinations('23').toString() === 'ad,ae,af,bd,be,bf,cd,ce,cf'); // true
