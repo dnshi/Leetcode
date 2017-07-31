@@ -31,12 +31,9 @@
  */
 var findErrorNums = function(nums) {
     const set = new Set()
-    let sum = (nums.length * (nums.length + 1)) / 2
-    let duplicate
+    let duplicate, sum = (nums.length * (nums.length + 1)) / 2
     for (let n of nums) {
-        if (set.has(n)) {
-            duplicate = n
-        }
+        if (set.has(n)) duplicate = n
         else {
             sum -= n
             set.add(n)
