@@ -89,7 +89,7 @@
 |18|[4Sum](https://oj.leetcode.com/problems/4sum/)| |Medium|
 |17|[Letter Combinations of a Phone Number](https://oj.leetcode.com/problems/letter-combinations-of-a-phone-number/)| [JavaScript](./algorithms/LetterCombinationsOfAPhoneNumber.js)|Medium|
 |16|[3Sum Closest](https://oj.leetcode.com/problems/3sum-closest/)| |Medium|
-|15|[3Sum](https://oj.leetcode.com/problems/3sum/)| |Medium|
+|15|[3Sum](https://leetcode.com/problems/3sum) | [JavaScript](./algorithms/3Sum.js)|Medium|
 |14|[Longest Common Prefix](https://oj.leetcode.com/problems/longest-common-prefix/)| [JavaScript](./algorithms/LongestCommonPrefix.js)|Easy|
 |13|[Roman to Integer](https://oj.leetcode.com/problems/roman-to-integer/)| [JavaScript](./algorithms/RomanToInteger.js)|Easy|
 |12|[Integer to Roman](https://oj.leetcode.com/problems/integer-to-roman/)| [JavaScript](./algorithms/IntegerToRoman.js)|Medium|
