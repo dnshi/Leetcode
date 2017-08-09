@@ -38,7 +38,7 @@ var threeSum = function(nums) {
                 --right;++left
             }
             else if (sum > 0) --right
-            else  ++left
+            else ++left
         }
     })
 
