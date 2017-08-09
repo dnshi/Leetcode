@@ -4,6 +4,7 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | [JavaScript](./algorithms/TwoSum_IV.js)|Easy|
 |645|[Set Mismatch](https://leetcode.com/problems/set-mismatch) | [JavaScript](./algorithms/SetMismatch.js)|Easy|
 |643|[Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i) | [JavaScript](./algorithms/MaximumAverageSubarray_I.js)|Easy|
 |637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree) | [JavaScript](./algorithms/AverageOfLevelsInBinaryTree.js)|Easy|
