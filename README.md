@@ -4,6 +4,7 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|660|[Remove 9](https://leetcode.com/problems/remove-9) | [JavaScript](./algorithms/Remove9.js)|Hard|
 |654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree) | [JavaScript](./algorithms/MaximumBinaryTree.js)|Medium|
 |653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst) | [JavaScript](./algorithms/TwoSum_IV.js)|Easy|
 |645|[Set Mismatch](https://leetcode.com/problems/set-mismatch) | [JavaScript](./algorithms/SetMismatch.js)|Easy|
