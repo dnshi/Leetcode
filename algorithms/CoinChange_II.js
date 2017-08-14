@@ -47,11 +47,11 @@
 var change = function(amount, coins) {
     const dp = Array(amount + 1).fill(0)
     dp[0] = 1
-
-    for (let i of coins) {
-        for (let j = i; j <= amount + 1; ++j) {
-            dp[j] += dp[j - i]
+    
+    for (let coin of coins) {
+        for (let i = coin; i <= amount; ++i) {
+            dp[i] += dp[i - coin]
         }
     }
     return dp[amount]
-}
+};
