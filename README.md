@@ -121,4 +121,5 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|627|[Swap Salary](https://leetcode.com/problems/swap-salary) | [SQL](./sql/SwapSalary.sql)|Easy|
 |620|[Not Boring Movies](https://leetcode.com/problems/not-boring-movies) | [SQL](./sql/NotBoringMovies.sql)|Easy|
