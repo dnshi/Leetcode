@@ -121,4 +121,4 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|620|[Not Boring Movies](https://leetcode.com/problems/not-boring-movies) | [SQL](/Users/dean_shi/Workspace/LeetCode/sql/NotBoringMovies.sql)|Easy|
+|620|[Not Boring Movies](https://leetcode.com/problems/not-boring-movies) | [SQL](./sql/NotBoringMovies.sql)|Easy|
