@@ -2,7 +2,7 @@
 # Author : Dean Shi
 # Date   : 2017-08-15
 
-# ***************************************************************************************
+##################################################################################
 #
 #  X city opened a new cinema, many people would like to go to this cinema.
 #  The cinema also gives out a poster indicating the movies’ ratings and descriptions.
@@ -31,6 +31,6 @@
 #  |   1     | War       |   great 3D   |   8.9     |
 #  +---------+-----------+--------------+-----------+
 #
-# **************************************************************************************/
+##################################################################################
 
 SELECT * From cinema WHERE mod(id, 2) = 1 AND description <> 'boring' ORDER BY rating DESC
