@@ -125,3 +125,4 @@
 |---| ----- | -------- | ---------- |
 |627|[Swap Salary](https://leetcode.com/problems/swap-salary) | [SQL](./sql/SwapSalary.sql)|Easy|
 |620|[Not Boring Movies](https://leetcode.com/problems/not-boring-movies) | [SQL](./sql/NotBoringMovies.sql)|Easy|
+|596|[Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students) | [SQL](./sql/ClassesMoreThan5Students.sql)|Easy|
