@@ -15,6 +15,7 @@
 |628|[Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/) | [JavaScript](./algorithms/MaximumProductOfThreeNumbers.js)|Easy|
 |623|[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree) | [JavaScript](./algorithms/AddOneRowToTree.js)|Medium|
 |617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees) | [JavaScript](./algorithms/MergeTwoBinaryTrees.js)|Easy|
+|606|[Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree) | [JavaScript](./algorithms/ConstructStringFromBinaryTree.js)|Easy|
 |563|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt) | [JavaScript](./algorithms/BinaryTreeTilt.js)|Easy|
 |561|[Array Partition I](https://leetcode.com/problems/array-partition-i) | [JavaScript](./algorithms/ArrayPartition_I.js)|Easy|
 |557|[Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | [JavaScript](./algorithms/ReverseWordsInAString_III.js)|Easy|
