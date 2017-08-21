@@ -61,6 +61,7 @@
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) | [JavaScript](./algorithms/TwoSum_II.js)|Easy|
 |155|[Min Stack](https://leetcode.com/problems/min-stack) | [JavaScript](./algorithms/MinStack.js)|Easy|
 |151|[Reverse Words in a String](https://oj.leetcode.com/problems/reverse-words-in-a-string/)| [JavaScript](./algorithms/ReverseWordsInAString.js)|Medium|
+|146|[LRU Cache](https://leetcode.com/problems/lru-cache) | [JavaScript](./algorithms/LRUCache.js)|Hard|
 |136|[Single Number](https://oj.leetcode.com/problems/single-number/)| [JavaScript](./algorithms/SingleNumber.js)|Medium|
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | [JavaScript](./algorithms/BestTimeToBuyAndSellStock.js)|Easy|
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii) | [JavaScript](./algorithms/PascalsTriangle_II.js)|Easy|
