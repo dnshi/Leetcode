@@ -53,7 +53,7 @@ var LRUCache = function(capacity) {
 LRUCache.prototype.get = function(key) {
     listNode = this.hash[key]
 
-    if (!listNode || listNode.val === -1) return -1
+    if (!listNode) return -1
 
     listNode.prev.next = listNode.next
     listNode.next.prev = listNode.prev
@@ -70,19 +70,19 @@ LRUCache.prototype.get = function(key) {
  */
 LRUCache.prototype.put = function(key, value) {
     let listNode
-    if (this.hash[key] instanceof DoubleLinkedList && this.hash[key].val !== -1) {
+    if (this.hash[key] instanceof DoubleLinkedList) {
         listNode = this.hash[key]
         listNode.val = value
         listNode.prev.next = listNode.next
         listNode.next.prev = listNode.prev
     } else {
-        listNode = new DoubleLinkedList(value)
+        listNode = new DoubleLinkedList(key, value)
 
         if (this.currentSize === this.capacity) {
             const last = this.tail.prev
             this.tail.prev = last.prev
             last.prev.next = this.tail
-            last.val = -1
+            this.hash[last.key] = null
         }
         else ++this.currentSize
     }
@@ -92,8 +92,8 @@ LRUCache.prototype.put = function(key, value) {
     this.hash[key] = listNode
 };
 
-function DoubleLinkedList(value) {
-    this.val = value
+function DoubleLinkedList(key, value) {
+    [this.key, this.val] = [key, value];
     this.prev = this.next = null
 }
 
