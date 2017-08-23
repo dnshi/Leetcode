@@ -27,9 +27,10 @@
 var maxSubArray = function(nums) {
     let max = nums[0]
 
-    for (let i = 1, sum = nums[0]; i < nums.length; ++i) {
-        sum = Math.max(sum + nums[i], nums[i])
-        max = Math.max(max, sum)
-    }
+    nums.reduce((sum, num) => {
+        sum = Math.max(sum + num, num)
+        max = Math.max(max, sum) 
+        return sum
+    })
     return max
 };
