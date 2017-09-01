@@ -75,6 +75,7 @@
 |94|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | [JavaScript](./algorithms/BinaryTreeInorderTraversal.js)|Medium|
 |92|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii) | [JavaScript](./algorithms/ReverseLinkedList_II.js)|Medium|
 |88|[Merge Sorted Array](https://oj.leetcode.com/problems/merge-sorted-array/)| [JavaScript](./algorithms/MergeTwoSortedArray.js)|Easy|
+|86|[Partition List](https://leetcode.com/problems/partition-list) | [JavaScript](./algorithms/PartitionList.js)|Medium|
 |80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii) | [JavaScript](./algorithms/RemoveDuplicatesFromSortedArray_II.js)|Medium|
 |70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | [JavaScript](./algorithms/ClimbingStairs.js)|Easy|
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx) | [JavaScript](./algorithms/SqrtX.js)|Easy|
