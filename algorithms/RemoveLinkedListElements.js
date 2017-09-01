@@ -22,14 +22,36 @@
  * }
  */
 /**
+ * Recursion
  * @param {ListNode} head
  * @param {number} val
  * @return {ListNode}
  */
 var removeElements = function(head, val) {
-    if (!head) {
-        return head;
-    }
+    if (!head) return head;
+
     head.next = removeElements(head.next, val);
     return head.val === val ? head.next : head;
+};
+
+/**
+ * Iteration
+ * @param {ListNode} head
+ * @param {number} val
+ * @return {ListNode}
+ */
+var removeElements = function(head, val) {
+    let headNode, prevNode, currNode 
+    headNode = prevNode = new ListNode() 
+    prevNode.next = currNode = head
+    
+    while (currNode) {
+        if (currNode.val !== val) {
+            prevNode = prevNode.next
+        } else {
+            prevNode.next = currNode.next
+        }
+        currNode = currNode.next
+    }
+    return headNode.next
 };
