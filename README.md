@@ -45,6 +45,7 @@
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz) | [JavaScript](./algorithms/FizzBuzz.js)|Easy|
 |409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome) | [JavaScript](./algorithms/LongestPalindrome.js)|Easy|
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | [JavaScript](./algorithms/FirstUniqueCharacterInAString.js)|Easy|
+|384|[Shuffle an Array](https://leetcode.com/problems/shuffle-an-array) | [JavaScript](./algorithms/ShuffleAnArray.js)|Medium|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string) | [JavaScript](./algorithms/ReverseString.js)|Easy|
 |322|[Coin Change](https://leetcode.com/problems/coin-change) | [JavaScript](./algorithms/CoinChange.js)|Medium|
 |319|[Bulb Switcher](https://leetcode.com/problems/bulb-switcher) | [JavaScript](./algorithms/BulbSwitcher.js)|Medium|
