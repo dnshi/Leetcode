@@ -4,6 +4,7 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|672|[Bulb Switcher II](https://leetcode.com/problems/bulb-switcher-ii) | [JavaScript](./algorithms/BulbSwitcher_II.js)|Medium|
 |671|[Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree) | [JavaScript](./algorithms/SecondMinimumNodeInABinaryTree.js)|Easy|
 |670|[Maximum Swap](https://leetcode.com/problems/maximum-swap) | [JavaScript](./algorithms/MaximumSwap.js)|Medium|
 |660|[Remove 9](https://leetcode.com/problems/remove-9) | [JavaScript](./algorithms/Remove9.js)|Hard|
