@@ -125,6 +125,7 @@
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |195|[Tenth Line](https://leetcode.com/problems/tenth-line/)| [Shell](./shell/TenthLine.sh)|Easy|
+|193|[Valid Phone Numbers](https://leetcode.com/problems/valid-phone-numbers) | [Shell](./shell/ValidPhoneNumbers.sh)|Easy|
 
 ### LeetCode SQL
 
