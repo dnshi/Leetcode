@@ -4,6 +4,7 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence) | [JavaScript](./algorithms/LongestContinuousIncreasingSubsequence.js)|Easy|
 |672|[Bulb Switcher II](https://leetcode.com/problems/bulb-switcher-ii) | [JavaScript](./algorithms/BulbSwitcher_II.js)|Medium|
 |671|[Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree) | [JavaScript](./algorithms/SecondMinimumNodeInABinaryTree.js)|Easy|
 |670|[Maximum Swap](https://leetcode.com/problems/maximum-swap) | [JavaScript](./algorithms/MaximumSwap.js)|Medium|
