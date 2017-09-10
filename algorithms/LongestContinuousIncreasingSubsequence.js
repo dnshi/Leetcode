@@ -29,6 +29,7 @@
  ***************************************************************************************/
 
 /**
+ * JS reduce method
  * @param {number[]} nums
  * @return {number}
  */
@@ -37,13 +38,28 @@ var findLengthOfLCIS = function(nums) {
 
     let len = 1, longest = 1
     nums.reduce((prev, curr) => {
-        if (prev >= curr) {
-            len = 1
-        } else {
-            longest = Math.max(longest, ++len)
-        }
+        if (prev >= curr) len = 1
+        else longest = Math.max(longest, ++len)
         return curr
     })
+
+    return longest
+};
+
+/**
+ * Iteration
+ * @param {number[]} nums
+ * @return {number}
+ */
+var findLengthOfLCIS = function(nums) {
+    if (!nums.length) return 0
+
+    let longest = 1
+
+    for (let len = 1, i = 1; i < nums.length; ++i) {
+        if (nums[i - 1] < nums[i]) longest = Math.max(longest, ++len)
+        else len = 1
+    }
 
     return longest
 };
