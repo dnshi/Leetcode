@@ -50,6 +50,7 @@
 |404|[Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves) | [JavaScript](./algorithms/SumOfLeftLeaves.js)|Easy|
 |387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string) | [JavaScript](./algorithms/FirstUniqueCharacterInAString.js)|Easy|
 |384|[Shuffle an Array](https://leetcode.com/problems/shuffle-an-array) | [JavaScript](./algorithms/ShuffleAnArray.js)|Medium|
+|345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string) | [JavaScript](./algorithms/ReverseVowelsOfAString.js)|Easy|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string) | [JavaScript](./algorithms/ReverseString.js)|Easy|
 |342|[Power of Four](https://leetcode.com/problems/power-of-four) | [JavaScript](./algorithms/PowerOfFour.js)|Easy|
 |326|[Power of Three](https://leetcode.com/problems/power-of-three) | [JavaScript](./algorithms/PowerOfThree.js)|Easy|
