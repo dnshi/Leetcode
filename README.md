@@ -4,6 +4,7 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|677|[Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs)|[JavaScript](./algorithms/MapSumPairs.js)|Medium|
 |674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence) | [JavaScript](./algorithms/LongestContinuousIncreasingSubsequence.js)|Easy|
 |672|[Bulb Switcher II](https://leetcode.com/problems/bulb-switcher-ii) | [JavaScript](./algorithms/BulbSwitcher_II.js)|Medium|
 |671|[Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree) | [JavaScript](./algorithms/SecondMinimumNodeInABinaryTree.js)|Easy|
