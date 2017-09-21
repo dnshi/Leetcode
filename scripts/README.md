@@ -1,13 +1,17 @@
-### Script
+# Comment & Readme Generator
 
-The `index.js` is Node.js script to generate comment into your target source file and row into your README.md
+The `index.js` is Node.js script to generate 
+  - comment in your target source file 
+  - table row in your README.md
+
+### Commands
 
 1) Install Node packages
 ```
 npm install
 ```
 
-2) Add url on the **FIRST** line in your target source file
+2) Add url to the **FIRST** line in your target source file
 ```js
 https://leetcode.com/problems/two-sum/description/
 
