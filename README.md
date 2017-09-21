@@ -4,6 +4,7 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii)|[JavaScript](./algorithms/ValidPalindrome_II.js)|Easy|
 |677|[Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs)|[JavaScript](./algorithms/MapSumPairs.js)|Medium|
 |674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence) | [JavaScript](./algorithms/LongestContinuousIncreasingSubsequence.js)|Easy|
 |672|[Bulb Switcher II](https://leetcode.com/problems/bulb-switcher-ii) | [JavaScript](./algorithms/BulbSwitcher_II.js)|Medium|
