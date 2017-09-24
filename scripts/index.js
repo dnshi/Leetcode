@@ -106,11 +106,11 @@ class File {
   }
 
   getNum() {
-    return this.title.trim().split('.')[0]
+    return this.title.split('.')[0].trim()
   }
 
   getTitle() {
-    return this.title.trim().split('.')[1].trim()
+    return this.title.split('.')[1].trim()
   }
 
   getSourceFilePath() {
