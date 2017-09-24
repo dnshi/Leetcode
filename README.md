@@ -7,6 +7,7 @@
 |682|[Baseball Game](https://leetcode.com/problems/baseball-game)|[JavaScript](algorithms/BaseballGame.js)|Easy|
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii)|[JavaScript](./algorithms/ValidPalindrome_II.js)|Easy|
 |677|[Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs)|[JavaScript](./algorithms/MapSumPairs.js)|Medium|
+|676|[Implement Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary)|[JavaScript](./algorithms/ImplementMagicDict.js)|Medium|
 |674|[Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence) | [JavaScript](./algorithms/LongestContinuousIncreasingSubsequence.js)|Easy|
 |672|[Bulb Switcher II](https://leetcode.com/problems/bulb-switcher-ii) | [JavaScript](./algorithms/BulbSwitcher_II.js)|Medium|
 |671|[Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree) | [JavaScript](./algorithms/SecondMinimumNodeInABinaryTree.js)|Easy|
