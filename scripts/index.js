@@ -138,7 +138,7 @@ class File {
       .replace(/\n\s*\n/g, '\n\n')
       .split('\n')
       .reduce((lines, line) => {
-        const lineArr = line.match(/.{1,84}\b/g)
+        const lineArr = line.match(/.{1,84}($|\W)/g)
 
         return lineArr
           ? lines.concat(lineArr.map(l => l.trim()))
