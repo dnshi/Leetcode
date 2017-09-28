@@ -44,7 +44,7 @@ MapSum.prototype.insert = function(key, val) {
 MapSum.prototype.sum = function(prefix) {
     let sum = 0
     for (let [key, val] of this.map) {
-        if (key.indexOf(prefix) === 0) sum += val
+        if (key.startsWith(prefix)) sum += val
     }
     return sum
 };
