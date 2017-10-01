@@ -17,5 +17,5 @@
  * @return {number}
  */
 var trailingZeroes = function(n) {
-    return n === 0 ? 0 : (n / 5 | 0) + trailingZeroes(n / 5 | 0)
+    return n ? (n / 5 | 0) + trailingZeroes(n / 5 | 0) : 0
 };
