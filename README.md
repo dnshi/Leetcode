@@ -1,4 +1,4 @@
-# LeetCode 
+# LeetCode
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/dnshi/Leetcode/blob/master/LICENSE.md)
 ### LeetCode Algorithms
 
@@ -74,6 +74,7 @@
 |202|[Happy Number](https://leetcode.com/problems/happy-number/)| [JavaScript](./algorithms/HappyNumber.js)|Easy|
 |191|[Number of 1 Bits](https://oj.leetcode.com/problems/number-of-1-bits/)| [JavaScript](./algorithms/NumberOf1Bits.js)|Easy|
 |190|[Reverse Bits](https://oj.leetcode.com/problems/reverse-bits/)| [JavaScript](./algorithms/ReverseBits.js)|Easy|
+|172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)|[JavaScript](./algorithms/FactorialTrailingZeroes.js)|Easy|
 |171|[Excel Sheet Column Number](https://oj.leetcode.com/problems/excel-sheet-column-number/) | [JavaScript](./algorithms/ExcelSheetColumnNumber.js)|Easy|
 |169|[Majority Element](https://oj.leetcode.com/problems/majority-element/) | [JavaScript](./algorithms/MajorityElement.js)|Easy|
 |168|[Excel Sheet Column Title](https://oj.leetcode.com/problems/excel-sheet-column-title/) | [JavaScript](./algorithms/ExcelSheetColumnTitle.js)|Easy|
