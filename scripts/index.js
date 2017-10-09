@@ -143,7 +143,7 @@ class File {
         return lineArr
           ? lines.concat(lineArr.map(l => l.trim()))
           : lines.concat(line)
-      }, [])
+      }, [''])
   }
 
   createHeader(source, author, date) {
@@ -174,7 +174,6 @@ class File {
     ]
 
     const commentBody = this.getContent(description)
-    commentBody.length = commentBody.length - 1 // remove last empty line
     return `${commentHeader}${commentBody.join(`\n${commentBlock}`)}\n${commentFooter}`
   }
 
