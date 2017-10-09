@@ -5,6 +5,7 @@
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |693|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits)|[JavaScript](./algorithms/BinaryNumberWithAlternatingBits.js)|Easy|
+|686|[Repeated String Match](https://leetcode.com/problems/repeated-string-match/discuss/)|[JavaScript](./algorithms/RepeatedStringMatch.js)|Easy|
 |682|[Baseball Game](https://leetcode.com/problems/baseball-game)|[JavaScript](algorithms/BaseballGame.js)|Easy|
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii)|[JavaScript](./algorithms/ValidPalindrome_II.js)|Easy|
 |678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string)|[JavaScript](./algorithms/ValidParenthesisString.js)|Medium|
