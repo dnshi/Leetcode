@@ -21,27 +21,6 @@
  *  Length of the given string and k will in the range [1, 10000]
  *
  *
- *
- *           Subscribe to see which companies asked this question.
- *
- *
- *
- *
- *
- *           Show Tags
- *
- *
- *             String
- *
- *
- *
- *
- *
- *
- *
- *           Show Similar Problems
- *
- *
  ***************************************************************************************/
 
 /**
