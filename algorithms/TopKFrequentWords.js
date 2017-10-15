@@ -41,9 +41,7 @@
 var topKFrequent = function(words, k) {
     const dp = {}
 
-    words.forEach((word) => {
-        dp[word] = (dp[word] || 0) + 1
-    })
+    words.forEach((word) => dp[word] = (dp[word] || 0) + 1)
 
     const result = Object
         .entries(dp)
