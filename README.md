@@ -68,6 +68,7 @@
 |273|[Integer to English Words](https://leetcode.com/problems/integer-to-english-words)|[JavaScript](./algorithms/IntegerToEnglishWords.js)|Hard|
 |268|[Missing Number](https://leetcode.com/problems/missing-number) | [JavaScript](./algorithms/MissingNumber.js)|Easy|
 |263|[Ugly Number](https://leetcode.com/problems/ugly-number)|[JavaScript](./algorithms/UglyNumber.js)|Easy|
+|234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/discuss/)|[JavaScript](./algorithms/PalindromeLinkedList.js)|Easy|
 |227|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii)|[JavaScript](./algorithms/BasicCalculator_II.js)|Medium|
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)| [JavaScript](./algorithms/InvertBinaryTree.js)|Easy|
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)| [JavaScript](./algorithms/ImplementStackUsingQueues.js)|Medium|
