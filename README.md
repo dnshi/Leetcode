@@ -6,7 +6,7 @@
 |---| ----- | -------- | ---------- |
 |693|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits)|[JavaScript](./algorithms/BinaryNumberWithAlternatingBits.js)|Easy|
 |692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words)|[JavaScript](./algorithms/TopKFrequentWords.js)|Medium|
-|686|[Repeated String Match](https://leetcode.com/problems/repeated-string-match/discuss/)|[JavaScript](./algorithms/RepeatedStringMatch.js)|Easy|
+|686|[Repeated String Match](https://leetcode.com/problems/repeated-string-match)|[JavaScript](./algorithms/RepeatedStringMatch.js)|Easy|
 |682|[Baseball Game](https://leetcode.com/problems/baseball-game)|[JavaScript](algorithms/BaseballGame.js)|Easy|
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii)|[JavaScript](./algorithms/ValidPalindrome_II.js)|Easy|
 |679|[24 Game](https://leetcode.com/problems/24-game)|[JavaScript](./algorithms/24Game.js)|Hard|
@@ -69,7 +69,7 @@
 |273|[Integer to English Words](https://leetcode.com/problems/integer-to-english-words)|[JavaScript](./algorithms/IntegerToEnglishWords.js)|Hard|
 |268|[Missing Number](https://leetcode.com/problems/missing-number) | [JavaScript](./algorithms/MissingNumber.js)|Easy|
 |263|[Ugly Number](https://leetcode.com/problems/ugly-number)|[JavaScript](./algorithms/UglyNumber.js)|Easy|
-|234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/discuss/)|[JavaScript](./algorithms/PalindromeLinkedList.js)|Easy|
+|234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list)|[JavaScript](./algorithms/PalindromeLinkedList.js)|Easy|
 |227|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii)|[JavaScript](./algorithms/BasicCalculator_II.js)|Medium|
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)| [JavaScript](./algorithms/InvertBinaryTree.js)|Easy|
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)| [JavaScript](./algorithms/ImplementStackUsingQueues.js)|Medium|
