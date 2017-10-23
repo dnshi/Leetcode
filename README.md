@@ -9,6 +9,7 @@
 |686|[Repeated String Match](https://leetcode.com/problems/repeated-string-match/discuss/)|[JavaScript](./algorithms/RepeatedStringMatch.js)|Easy|
 |682|[Baseball Game](https://leetcode.com/problems/baseball-game)|[JavaScript](algorithms/BaseballGame.js)|Easy|
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii)|[JavaScript](./algorithms/ValidPalindrome_II.js)|Easy|
+|679|[24 Game](https://leetcode.com/problems/24-game)|[JavaScript](./algorithms/24Game.js)|Hard|
 |678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string)|[JavaScript](./algorithms/ValidParenthesisString.js)|Medium|
 |677|[Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs)|[JavaScript](./algorithms/MapSumPairs.js)|Medium|
 |676|[Implement Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary)|[JavaScript](./algorithms/ImplementMagicDict.js)|Medium|
