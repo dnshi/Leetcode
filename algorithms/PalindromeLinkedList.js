@@ -1,4 +1,4 @@
-// Source : https://leetcode.com/problems/palindrome-linked-list/discuss/
+// Source : https://leetcode.com/problems/palindrome-linked-list
 // Author : Dean Shi
 // Date   : 2017-10-21
 
