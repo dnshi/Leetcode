@@ -1,4 +1,4 @@
-// Source : https://leetcode.com/problems/repeated-string-match/discuss/
+// Source : https://leetcode.com/problems/repeated-string-match
 // Author : Dean Shi
 // Date   : 2017-10-09
 
