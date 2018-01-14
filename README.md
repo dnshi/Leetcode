@@ -4,6 +4,7 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|760|[Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings)|[JavaScript](./algorithms/FindAnagramMappings.js)|Easy|
 |693|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits)|[JavaScript](./algorithms/BinaryNumberWithAlternatingBits.js)|Easy|
 |692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words)|[JavaScript](./algorithms/TopKFrequentWords.js)|Medium|
 |686|[Repeated String Match](https://leetcode.com/problems/repeated-string-match)|[JavaScript](./algorithms/RepeatedStringMatch.js)|Easy|
