@@ -4,6 +4,7 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones)|[JavaScript](./algorithms/JewelsAndStones.js)|Easy|
 |760|[Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings)|[JavaScript](./algorithms/FindAnagramMappings.js)|Easy|
 |747|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others)|[JavaScript](./algorithms/LargestNumberAtLeastTwiceOfOthers.js)|Easy|
 |744|[Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target)|[JavaScript](./algorithms/FindSmallestLetterGreaterThanTarget.js)|Easy|
