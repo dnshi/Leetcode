@@ -34,7 +34,7 @@ class File {
 
       [this.url, ...this.paragraphs] = file.split('\n')
       await this.fetchAll(this.url)
-      await this.writeFile(sourceFilePath, this.createSourceFile())
+      await this.writeFileAsync(sourceFilePath, this.createSourceFile())
 
       console.log('[Script] Source file has been updated!')
     } catch (err) {
@@ -48,7 +48,7 @@ class File {
       const file = await readFileAsync(readmeFilePath, { encoding: 'utf8' })
       const line = this.searchLine(file)
       const data = this.insertLine(file, this.getLine(), file.indexOf(line))
-      await this.writeFile(readmeFilePath, data)
+      await this.writeFileAsync(readmeFilePath, data)
 
       console.log('[Script] README has been updated!')
     } catch (err) {
@@ -80,14 +80,6 @@ class File {
 
   async fetchTitle(page) {
     return await page.evaluate(() => document.querySelector('.question-title h3').textContent)
-  }
-
-  async writeFile(path, data) {
-    try {
-      await writeFileAsync(path, data)
-    } catch (err) {
-      console.error('ERROR:', err)
-    }
   }
 
   getSource() {
