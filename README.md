@@ -96,6 +96,7 @@
 |155|[Min Stack](https://leetcode.com/problems/min-stack) | [JavaScript](./algorithms/MinStack.js)|Easy|
 |151|[Reverse Words in a String](https://oj.leetcode.com/problems/reverse-words-in-a-string/)| [JavaScript](./algorithms/ReverseWordsInAString.js)|Medium|
 |146|[LRU Cache](https://leetcode.com/problems/lru-cache) | [JavaScript](./algorithms/LRUCache.js)|Hard|
+|142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)|[JavaScript](./algorithms/LinkedListCycle_II.js)|Medium|
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle)|[JavaScript](./algorithms/LinkedListCycle.js)|Easy|
 |136|[Single Number](https://oj.leetcode.com/problems/single-number/)| [JavaScript](./algorithms/SingleNumber.js)|Medium|
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii)|[JavaScript](./algorithms/BestTimeToBuyAndSellStock_II.js)|Easy|
