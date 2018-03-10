@@ -34,7 +34,7 @@ class File {
 
       [this.url, ...this.paragraphs] = file.split('\n')
       await this.fetchAll(this.url)
-      await this.writeFileAsync(sourceFilePath, this.createSourceFile())
+      await writeFileAsync(sourceFilePath, this.createSourceFile())
 
       console.log('[Script] Source file has been updated!')
     } catch (err) {
@@ -48,7 +48,7 @@ class File {
       const file = await readFileAsync(readmeFilePath, { encoding: 'utf8' })
       const line = this.searchLine(file)
       const data = this.insertLine(file, this.getLine(), file.indexOf(line))
-      await this.writeFileAsync(readmeFilePath, data)
+      await writeFileAsync(readmeFilePath, data)
 
       console.log('[Script] README has been updated!')
     } catch (err) {
