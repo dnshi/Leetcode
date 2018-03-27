@@ -4,6 +4,7 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|796|[Rotate String](https://leetcode.com/problems/rotate-string)|[JavaScript](./algorithms/RotateString.js)|Easy|
 |788|[Rotated Digits](https://leetcode.com/problems/rotated-digits)|[JavaScript](./algorithms/RotatedDigits.js)|Easy|
 |771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones)|[JavaScript](./algorithms/JewelsAndStones.js)|Easy|
 |760|[Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings)|[JavaScript](./algorithms/FindAnagramMappings.js)|Easy|
