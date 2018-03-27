@@ -59,7 +59,8 @@ class File {
   async fetchAll(url) {
     const browser = await puppeteer.launch()
     const page = await browser.newPage()
-    await page.goto(url);
+    await page.goto(url)
+    await page.waitForSelector('.question-description');
 
     [this.description, this.difficulty, this.title] = await Promise.all([
       this.fetchDescription(page),
