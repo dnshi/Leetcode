@@ -60,7 +60,7 @@ class File {
     const browser = await puppeteer.launch()
     const page = await browser.newPage()
     await page.goto(url)
-    await page.waitForSelector('.question-description');
+    await page.waitForSelector('[class^="question-description"]');
 
     [this.description, this.difficulty, this.title] = await Promise.all([
       this.fetchDescription(page),
@@ -72,7 +72,7 @@ class File {
   }
 
   async fetchDescription(page) {
-    return await page.evaluate(() => document.querySelector('.question-description').textContent)
+    return await page.evaluate(() => document.querySelector('[class^="question-description"]').textContent)
   }
 
   async fetchDifficulty(page) {
