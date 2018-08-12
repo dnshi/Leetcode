@@ -5,6 +5,7 @@
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list)|[JavaScript](./algorithms/MiddleOfTheLinkedList.js)|Easy|
+|859|[Buddy Strings](https://leetcode.com/problems/buddy-strings)|[JavaScript](./algorithms/BuddyStrings.js)|Easy|
 |814|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning)|[JavaScript](./algorithms/BinaryTreePruning.js)|Medium|
 |804|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words)|[JavaScript](./algorithms/UniqueMorseCodeWords.js)|Easy|
 |796|[Rotate String](https://leetcode.com/problems/rotate-string)|[JavaScript](./algorithms/RotateString.js)|Easy|
