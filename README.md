@@ -5,6 +5,7 @@
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |888|[Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences)|[JavaScript](./algorithms/UncommonWordsFromTwoSentences.js)|Easy|
+|881|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people)|[JavaScript](./algorithms/BoatsToSavePeople.js)|Medium|
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list)|[JavaScript](./algorithms/MiddleOfTheLinkedList.js)|Easy|
 |859|[Buddy Strings](https://leetcode.com/problems/buddy-strings)|[JavaScript](./algorithms/BuddyStrings.js)|Easy|
 |852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array)|[JavaScript](./algorithms/PeakIndexInAMountainArray.js)|Easy|
