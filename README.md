@@ -4,6 +4,7 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|890|[Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern)|[JavaScript](./algorithms/FindAndReplacePattern.js)|Medium|
 |888|[Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences)|[JavaScript](./algorithms/UncommonWordsFromTwoSentences.js)|Easy|
 |881|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people)|[JavaScript](./algorithms/BoatsToSavePeople.js)|Medium|
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list)|[JavaScript](./algorithms/MiddleOfTheLinkedList.js)|Easy|
