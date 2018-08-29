@@ -19,6 +19,7 @@
 |760|[Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings)|[JavaScript](./algorithms/FindAnagramMappings.js)|Easy|
 |747|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others)|[JavaScript](./algorithms/LargestNumberAtLeastTwiceOfOthers.js)|Easy|
 |744|[Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target)|[JavaScript](./algorithms/FindSmallestLetterGreaterThanTarget.js)|Easy|
+|728|[Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers)|[JavaScript](./algorithms/SelfDividingNumbers.js)|Easy|
 |724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index)|[JavaScript](./algorithms/FindPivotIndex.js)|Easy|
 |709|[To Lower Case](https://leetcode.com/problems/to-lower-case)|[JavaScript](./algorithms/ToLowerCase.js)|Easy|
 |693|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits)|[JavaScript](./algorithms/BinaryNumberWithAlternatingBits.js)|Easy|
