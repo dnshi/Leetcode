@@ -149,7 +149,7 @@
 |17|[Letter Combinations of a Phone Number](https://oj.leetcode.com/problems/letter-combinations-of-a-phone-number/)| [JavaScript](./algorithms/LetterCombinationsOfAPhoneNumber.js)|Medium|
 |16|[3Sum Closest](https://oj.leetcode.com/problems/3sum-closest/)| |Medium|
 |15|[3Sum](https://leetcode.com/problems/3sum) | [JavaScript](./algorithms/3Sum.js)|Medium|
-|14|[Longest Common Prefix](https://oj.leetcode.com/problems/longest-common-prefix/)| [JavaScript](./algorithms/LongestCommonPrefix.js)|Easy|
+|14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)|[JavaScript](algorithms/LongestCommonPrefix.js)|Easy|
 |13|[Roman to Integer](https://oj.leetcode.com/problems/roman-to-integer/)| [JavaScript](./algorithms/RomanToInteger.js)|Easy|
 |12|[Integer to Roman](https://oj.leetcode.com/problems/integer-to-roman/)| [JavaScript](./algorithms/IntegerToRoman.js)|Medium|
 |11|[Container With Most Water](https://oj.leetcode.com/problems/container-with-most-water/)| [JavaScript](./algorithms/ContainerWithMostWater.js)|Medium|
