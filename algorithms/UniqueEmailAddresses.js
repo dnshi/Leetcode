@@ -52,14 +52,14 @@ var numUniqueEmails = function(emails) {
 };
 
 function parseEmail(email) {
-    let parsedEmail = []
+    let parsedEmail = ''
     let [address, hostname] = email.split('@')
 
     for (let a of address) {
         if (a === '.') continue
         if (a === '+') break
-        parsedEmail.push(a)
+        parsedEmail += a
     }
 
-    return `${parsedEmail.join('')}@${hostname}`
+    return `${parsedEmail}@${hostname}`
 }
