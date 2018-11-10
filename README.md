@@ -4,6 +4,7 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|929|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses)|[JavaScript](algorithms/UniqueEmailAddresses.js)|Easy|
 |890|[Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern)|[JavaScript](./algorithms/FindAndReplacePattern.js)|Medium|
 |888|[Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences)|[JavaScript](./algorithms/UncommonWordsFromTwoSentences.js)|Easy|
 |881|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people)|[JavaScript](./algorithms/BoatsToSavePeople.js)|Medium|
