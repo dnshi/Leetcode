@@ -81,7 +81,7 @@ module.exports = class ReadMe {
     const suffixes = ['/description', '/discuss']
     return suffixes.some(suffix => this.url.includes(suffix))
       ? this.url.slice(0, Math.max(this.url.indexOf(suffixes[0]), this.url.indexOf(suffixes[1])))
-      : this.url
+      : this.url.replace(/\/$/, '')
   }
 
   getLanguage() {
