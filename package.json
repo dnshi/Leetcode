@@ -4,7 +4,8 @@
   "description": "LeetCode Solutions",
   "main": "./scripts/index.js",
   "repository": "git@github.com:dnshi/Leetcode.git",
-  "author": "Dean Shi <dean.xiaoshi@gmail.com>",
+  "author": "Dean Shi",
+  "email": "dean.xiaoshi@gmail.com",
   "license": "MIT",
   "devDependencies": {
     "puppeteer": "^0.10.2"

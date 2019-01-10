@@ -10,7 +10,7 @@ const writeFileAsync = promisify(fs.writeFile)
 const sourceFilePath = process.argv[2]
 const readmeFilePath = 'README.md'
 
-const AUTHOR = 'Dean Shi'
+const AUTHOR = require('../package.json').author
 
 class File {
   constructor(sourceFilePath, readmeFilePath) {
