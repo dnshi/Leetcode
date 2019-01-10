@@ -5,6 +5,7 @@
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree)|[JavaScript](algorithms/UnivaluedBinaryTree.js)|Easy|
+|938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst)|[JavaScript](algorithms/RangeSumOfBST.js)|Medium|
 |929|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses)|[JavaScript](algorithms/UniqueEmailAddresses.js)|Easy|
 |922|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii)|[JavaScript](algorithms/SortArrayByParity_II.js)|Easy|
 |890|[Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern)|[JavaScript](./algorithms/FindAndReplacePattern.js)|Medium|
