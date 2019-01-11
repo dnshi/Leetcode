@@ -7,7 +7,7 @@ const ReadMe = require('./readme.js')
 const readFileAsync = promisify(fs.readFile)
 const writeFileAsync = promisify(fs.writeFile)
 
-const sourceFilePath = process.argv[2]
+const sourceFilePaths = process.argv.slice(2)
 const readmeFilePath = 'README.md'
 
 const AUTHOR = require('../package.json').author
@@ -19,11 +19,13 @@ class File {
   }
 
   async process() {
-    await this.processSourceFile()
+    const success = await this.processSourceFile()
 
-    await new ReadMe(
-      this.sourceFilePath, this.readmeFilePath, this.url
-    ).process()
+    if (success) {
+      await new ReadMe(
+        this.sourceFilePath, this.readmeFilePath, this.url
+      ).process()
+    }
   }
 
   async processSourceFile() {
@@ -32,12 +34,18 @@ class File {
       const file = await readFileAsync(sourceFilePath, { encoding: 'utf8' });
 
       [this.url, ...this.paragraphs] = file.split('\n')
+      if (!this.isValidUrl(this.url)) {
+        console.log(`${sourceFilePath} has a comment header already`)
+        return false
+      }
       await this.fetchAll(this.url)
       await writeFileAsync(sourceFilePath, this.createSourceFile())
 
       console.log('[Script] Source file has been updated!')
+      return true
     } catch (err) {
       console.error('ERROR:', err)
+      return false
     }
   }
 
@@ -126,6 +134,12 @@ class File {
       ...this.paragraphs,
     ].join('\n')
   }
+
+  isValidUrl(url) {
+    return url.startsWith('http')
+  }
 }
 
-new File(sourceFilePath, readmeFilePath).process()
+if (sourceFilePaths.length > 0) {
+  sourceFilePaths.map(sourceFilePath => new File(sourceFilePath, readmeFilePath).process())
+}

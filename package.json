@@ -11,6 +11,6 @@
     "puppeteer": "^0.10.2"
   },
   "scripts": {
-    "start": "node ./scripts"
+    "start": "node ./scripts $(git status --short | grep -oE \"[^ ]*(algorithms|shell|sql).*$\")"
   }
 }
