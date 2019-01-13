@@ -83,6 +83,10 @@ class File {
     return this.sourceFilePath.slice(this.sourceFilePath.lastIndexOf('.') + 1)
   }
 
+  getDescription() {
+    return this.description
+  }
+
   getContent(description) {
     return description
       .replace(/\n\s*\n/g, '\n\n')
@@ -130,7 +134,7 @@ class File {
   createSourceFile() {
     return [
       this.createHeader(this.getSource(), this.getAuthor(), this.getDate()),
-      this.createDescription(this.description),
+      this.createDescription(this.getDescription()),
       ...this.paragraphs,
     ].join('\n')
   }

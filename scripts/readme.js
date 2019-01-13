@@ -66,7 +66,14 @@ module.exports = class ReadMe {
   }
 
   getLine() {
-    return `|${this.getNum()}|[${this.getTitle()}](${this.getSource()})|[${this.getLanguage()}](${this.getSourceFilePath()})|${this.getDifficulty()}|\n`
+    const num = this.getNum()
+    const title = this.getTitle()
+    const source = this.getSource()
+    const language = this.getLanguage()
+    const sourceFilePath = this.getSourceFilePath()
+    const difficulty = this.getDifficulty()
+
+    return `|${num}|[${title}](${source})|[${language}](${sourceFilePath})|${difficulty}|\n`
   }
 
   getNum() {
