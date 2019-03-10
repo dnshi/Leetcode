@@ -4,6 +4,7 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters)|[JavaScript](algorithms/FindCommonCharacters.js)|Easy|
 |965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree)|[JavaScript](algorithms/UnivaluedBinaryTree.js)|Easy|
 |961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array)|[JavaScript](algorithms/N-RepeatedElementInSize2NArray.js)|Easy|
 |938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst)|[JavaScript](algorithms/RangeSumOfBST.js)|Medium|
