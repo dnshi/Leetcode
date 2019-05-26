@@ -6,6 +6,7 @@
 |---| ----- | -------- | ---------- |
 |1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string)|[JavaScript](algorithms/RemoveAllAdjacentDuplicatesInString.js)|Easy|
 |1046|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight)|[JavaScript](algorithms/LastStoneWeight.js)|Easy|
+|1038|[Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree)|[JavaScript](algorithms/BinarySearchTreeToGreaterSumTree.js)|Medium|
 |1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters)|[JavaScript](algorithms/FindCommonCharacters.js)|Easy|
 |989|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer)|[JavaScript](algorithms/AddToArrayFormOfInteger.js)|Easy|
 |965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree)|[JavaScript](algorithms/UnivaluedBinaryTree.js)|Easy|
