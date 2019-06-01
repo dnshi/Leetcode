@@ -65,10 +65,10 @@ class File {
   }
 
   getSource() {
-    const suffixes = ['/description', '/discuss']
+    const suffixes = ['/description', '/discuss', '/submissions']
     return suffixes.some(suffix => this.url.includes(suffix))
-      ? this.url.slice(0, Math.max(this.url.indexOf(suffixes[0]), this.url.indexOf(suffixes[1])))
-      : this.url
+      ? this.url.slice(0, Math.max(...suffixes.map((suffix) => this.url.indexOf(suffix))))
+      : this.url.replace(/\/$/, '')
   }
 
   getAuthor() {
