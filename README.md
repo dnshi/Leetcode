@@ -157,9 +157,7 @@
 |21|[Merge Two Sorted Lists](https://oj.leetcode.com/problems/merge-two-sorted-lists/)| [JavaScript](./algorithms/MergeTwoSortedList.js)|Easy|
 |20|[Valid Parentheses](https://oj.leetcode.com/problems/valid-parentheses/)| [JavaScript](./algorithms/ValidParentheses.js)|Easy|
 |19|[Remove Nth Node From End of List](https://oj.leetcode.com/problems/remove-nth-node-from-end-of-list/)| [JavaScript](./algorithms/RemoveNthNodeFromEndOfList.js)|Easy|
-|18|[4Sum](https://oj.leetcode.com/problems/4sum/)| |Medium|
 |17|[Letter Combinations of a Phone Number](https://oj.leetcode.com/problems/letter-combinations-of-a-phone-number/)| [JavaScript](./algorithms/LetterCombinationsOfAPhoneNumber.js)|Medium|
-|16|[3Sum Closest](https://oj.leetcode.com/problems/3sum-closest/)| |Medium|
 |15|[3Sum](https://leetcode.com/problems/3sum) | [JavaScript](./algorithms/3Sum.js)|Medium|
 |14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix)|[JavaScript](algorithms/LongestCommonPrefix.js)|Easy|
 |13|[Roman to Integer](https://oj.leetcode.com/problems/roman-to-integer/)| [JavaScript](./algorithms/RomanToInteger.js)|Easy|
