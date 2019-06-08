@@ -4,6 +4,7 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|1071|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings)|[JavaScript](algorithms/GreatestCommonDivisorOfStrings.js)|Easy|
 |1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string)|[JavaScript](algorithms/RemoveAllAdjacentDuplicatesInString.js)|Easy|
 |1046|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight)|[JavaScript](algorithms/LastStoneWeight.js)|Easy|
 |1038|[Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree)|[JavaScript](algorithms/BinarySearchTreeToGreaterSumTree.js)|Medium|
