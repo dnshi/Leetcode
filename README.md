@@ -106,6 +106,7 @@
 |268|[Missing Number](https://leetcode.com/problems/missing-number) | [JavaScript](./algorithms/MissingNumber.js)|Easy|
 |263|[Ugly Number](https://leetcode.com/problems/ugly-number)|[JavaScript](./algorithms/UglyNumber.js)|Easy|
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list)|[JavaScript](./algorithms/PalindromeLinkedList.js)|Easy|
+|230|[Kth Smallest Element in BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)|[JavaScript](./algorithms/KthSmallestElementInBST.js)|Medium|
 |227|[Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii)|[JavaScript](./algorithms/BasicCalculator_II.js)|Medium|
 |226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)| [JavaScript](./algorithms/InvertBinaryTree.js)|Easy|
 |225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)| [JavaScript](./algorithms/ImplementStackUsingQueues.js)|Medium|
