@@ -26,25 +26,44 @@
  * @param {number} n
  * @return {boolean}
  */
-var isHappy = function(n) {
-    var i, sum, map = {};
-    return calculate(n);
+// var isHappy = function(n) {
+//     var i, sum, map = {};
+//     return calculate(n);
 
-    function calculate(num) {
-        if (num === 1) {
-            return true;
-        }
-        if (map[num]) {
-            return false;
-        }
-        map[num] = true;
-        sum = 0;
-        (num + '').split('').forEach(function(v) {
-            sum += Math.pow(v, 2);
-        });
-        return calculate(sum);
-    }
+//     function calculate(num) {
+//         if (num === 1) {
+//             return true;
+//         }
+//         if (map[num]) {
+//             return false;
+//         }
+//         map[num] = true;
+//         sum = 0;
+//         (num + '').split('').forEach(function(v) {
+//             sum += Math.pow(v, 2);
+//         });
+//         return calculate(sum);
+//     }
+// };
+
+/**
+ * @param {number} n
+ * @return {boolean}
+ */
+var isHappy = function(n) {
+    if (n / 10 < 1) return n === 7 || n === 1
+    
+    const nums = []
+    do {
+        nums.push(n % 10)
+    } while(n = Math.floor(n / 10))
+    
+    return isHappy(compute(nums))
 };
+
+function compute(nums) {
+    return nums.reduce((sum, n) => sum + n ** 2, 0)
+}
 
 // Test case
 console.log(isHappy(19)); // true
