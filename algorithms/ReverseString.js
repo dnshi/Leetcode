@@ -1,21 +1,36 @@
 // Source : https://leetcode.com/problems/reverse-string
 // Author : Dean Shi
-// Date   : 2017-04-09
+// Date   : 2020-04-04
 
 /***************************************************************************************
- *
- * Write a function that takes a string as input and returns the string reversed.
- *
- * Example:
- * Given s = "hello", return "olleh".
- *
- *
+ * Write a function that reverses a string. The input string is given as an array of
+ * characters char[].
+ * 
+ * Do not allocate extra space for another array, you must do this by modifying the
+ * input array in-place with O(1) extra memory.
+ * 
+ * You may assume all the characters consist of printable ascii characters.
+ * 
+ * Example 1:
+ * 
+ * Input: ["h","e","l","l","o"]
+ * Output: ["o","l","l","e","h"]
+ * 
+ * Example 2:
+ * 
+ * Input: ["H","a","n","n","a","h"]
+ * Output: ["h","a","n","n","a","H"]
+ * 
+ * 
  ***************************************************************************************/
 
 /**
- * @param {string} s
- * @return {string}
+ * @param {character[]} s
+ * @return {void} Do not return anything, modify s in-place instead.
  */
 var reverseString = function(s) {
-    return s.split('').reverse().join('')
+    const end = s.length / 2
+    for (let i = 0; i < end; i++) {
+        [s[i], s[s.length - i - 1]] = [s[s.length - i - 1], s[i]]
+    }
 };
