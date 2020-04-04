@@ -26,5 +26,5 @@ var twoSum = function(nums, target) {
 
 3) Run command in your terminal
 ```
-node ./script ./algorithms/TwoSum.js
+npm start
 ```
