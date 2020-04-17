@@ -89,6 +89,7 @@
 |448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array) | [JavaScript](./algorithms/FindAllNumbersDisappearedInAnArray.js)|Easy|
 |442|[Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array) | [JavaScript](./algorithms/FindAllDuplicatesInAnArray.js)|Medium|
 |434|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string) | [JavaScript](./algorithms/NumberOfSegmentsInAString.js)|Easy|
+|414|[Third Maximum Number](https://leetcode.com/problems/third-maximum-number)|[JavaScript](algorithms/ThirdMaximumNumber.js)|Easy|
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz) | [JavaScript](./algorithms/FizzBuzz.js)|Easy|
 |409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome) | [JavaScript](./algorithms/LongestPalindrome.js)|Easy|
 |405|[Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal) | [JavaScript](./algorithms/ConvertANumberToHexadecimal.js)|Easy|
