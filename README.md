@@ -5,6 +5,7 @@
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |1452|[People Whose List of Favorite Companies Is Not a Subset of Another List](https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list)|[JavaScript](algorithms/PeopleWhoseListOfFavoriteCompaniesIsNotASubsetOfAnotherList.js)|Medium|
+|1451|[Rearrange Words in a Sentence](https://leetcode.com/problems/rearrange-words-in-a-sentence)|[JavaScript](algorithms/RearrangeWordsInASentence.js)|Medium|
 |1071|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings)|[JavaScript](algorithms/GreatestCommonDivisorOfStrings.js)|Easy|
 |1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string)|[JavaScript](algorithms/RemoveAllAdjacentDuplicatesInString.js)|Easy|
 |1046|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight)|[JavaScript](algorithms/LastStoneWeight.js)|Easy|
