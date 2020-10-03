@@ -12,6 +12,7 @@
 |1046|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight)|[JavaScript](algorithms/LastStoneWeight.js)|Easy|
 |1038|[Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree)|[JavaScript](algorithms/BinarySearchTreeToGreaterSumTree.js)|Medium|
 |1021|[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses)|[JavaScript](algorithms/RemoveOutermostParentheses.js)|Easy|
+|1019|[Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list)|[JavaScript](algorithms/NextGreaterNodeInLinkedList.js)|Medium|
 |1009|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer)|[JavaScript](algorithms/ComplementOfBase10Integer.js)|Easy|
 |1008|[Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal)|[JavaScript](algorithms/ConstructBinarySearchTreeFromPreorderTraversal.js)|Medium|
 |1002|[Find Common Characters](https://leetcode.com/problems/find-common-characters)|[JavaScript](algorithms/FindCommonCharacters.js)|Easy|
