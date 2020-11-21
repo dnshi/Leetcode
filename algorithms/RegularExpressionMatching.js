@@ -32,15 +32,13 @@
  * @return {boolean}
  */
 var isMatch = function(s, p) {
-    var result = s.match(RegExp(p));
-    return result ? result[0] === s : false;
+    if (p.length === 0) {
+        return !s.length
+    }
+    let firstLetterMatched = s.length > 0 && (s[0] === p[0] || p[0] === '.')
+    
+    if (p[1] === '*') {
+        return isMatch(s, p.substring(2)) || (firstLetterMatched && isMatch(s.substring(1), p))
+    }
+    return firstLetterMatched && isMatch(s.substring(1), p.substring(1))
 };
-
-// Test cases
-console.log(isMatch('aa', 'a')); // false
-console.log(isMatch('aa', 'aa')); // true
-console.log(isMatch('aaa', 'aa')); // false
-console.log(isMatch('aa', 'a*')); // true
-console.log(isMatch('aa', '.*')); // true
-console.log(isMatch('ab', '.*')); // true
-console.log(isMatch('aab', 'c*a*b')); // true
