@@ -1,6 +1,7 @@
 {
   "name": "leetcode",
   "version": "1.0.0",
+  "type": "module",
   "description": "LeetCode Solutions",
   "main": "./scripts/index.js",
   "repository": "git@github.com:dnshi/Leetcode.git",
@@ -8,9 +9,12 @@
   "email": "dean.xiaoshi@gmail.com",
   "license": "MIT",
   "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-reducer": "^0.5.3",
+    "prettier": "^2.2.1",
     "puppeteer": "^9.0.0"
   },
   "scripts": {
-    "start": "node ./scripts $(git status --short | grep -oE \"[^ ]*(algorithms|shell|sql).*$\")"
+    "start": "node --experimental-json-modules ./scripts $(git status --short | grep -oE \"[^ ]*(algorithms|shell|sql).*$\")"
   }
 }

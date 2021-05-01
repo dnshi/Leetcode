@@ -1,16 +1,17 @@
-const fs = require('fs')
-const { promisify } = require('util')
-const puppeteer = require('puppeteer')
-
-const ReadMe = require('./readme.js')
+/* eslint-disable import/no-extraneous-dependencies */
+/* eslint-disable no-console */
+/* eslint-disable class-methods-use-this */
+import fs from 'fs'
+import { promisify } from 'util'
+import puppeteer from 'puppeteer'
+import ReadMe from './readme'
+import nodePackage from '../package.json'
 
 const readFileAsync = promisify(fs.readFile)
 const writeFileAsync = promisify(fs.writeFile)
 
-const sourceFilePaths = process.argv.slice(2)
-const readmeFilePath = 'README.md'
-
-const AUTHOR = require('../package.json').author
+const sources = process.argv.slice(2)
+const readme = 'README.md'
 
 class File {
   constructor(sourceFilePath, readmeFilePath) {
@@ -23,17 +24,19 @@ class File {
 
     if (success) {
       await new ReadMe(
-        this.sourceFilePath, this.readmeFilePath, this.url
+        this.sourceFilePath,
+        this.readmeFilePath,
+        this.url,
       ).process()
     }
   }
 
   async processSourceFile() {
     try {
-      const sourceFilePath = this.sourceFilePath
-      const file = await readFileAsync(sourceFilePath, { encoding: 'utf8' });
+      const { sourceFilePath } = this
+      const file = await readFileAsync(sourceFilePath, { encoding: 'utf8' })
 
-      [this.url, ...this.paragraphs] = file.split('\n')
+      ;[this.url, ...this.paragraphs] = file.split('\n')
       if (!this.isValidUrl(this.url)) {
         console.log(`${sourceFilePath} has a comment header already`)
         return false
@@ -53,7 +56,9 @@ class File {
     const browser = await puppeteer.launch()
     const page = await browser.newPage()
     await page.goto(url)
-    await page.waitForSelector('div[class^="description"] > div[class^="content"] > div > p');
+    await page.waitForSelector(
+      'div[class^="description"] > div[class^="content"] > div > p',
+    )
 
     this.description = await this.fetchDescription(page)
 
@@ -61,18 +66,24 @@ class File {
   }
 
   async fetchDescription(page) {
-    return await page.$eval('div[class^="description"] > div[class^="content"]', (e) => e.textContent)
+    return page.$eval(
+      'div[class^="description"] > div[class^="content"]',
+      (e) => e.textContent,
+    )
   }
 
   getSource() {
     const suffixes = ['/description', '/discuss', '/submissions']
-    return suffixes.some(suffix => this.url.includes(suffix))
-      ? this.url.slice(0, Math.max(...suffixes.map((suffix) => this.url.indexOf(suffix))))
+    return suffixes.some((suffix) => this.url.includes(suffix))
+      ? this.url.slice(
+          0,
+          Math.max(...suffixes.map((suffix) => this.url.indexOf(suffix))),
+        )
       : this.url.replace(/\/$/, '')
   }
 
   getAuthor() {
-    return AUTHOR
+    return nodePackage.author
   }
 
   getDate() {
@@ -91,22 +102,21 @@ class File {
     return description
       .replace(/\n\s*\n/g, '\n\n')
       .split('\n')
-      .reduce((lines, line) => {
-        const lineArr = line.match(/.{1,84}($|\W)/g)
+      .reduce(
+        (lines, line) => {
+          const lineArr = line.match(/.{1,84}($|\W)/g)
 
-        return lineArr
-          ? lines.concat(lineArr.map(l => l.trim()))
-          : lines.concat(line)
-      }, [''])
+          return lineArr
+            ? lines.concat(lineArr.map((l) => l.trim()))
+            : lines.concat(line)
+        },
+        [''],
+      )
   }
 
   createHeader(source, author, date) {
     const extension = this.getExtension()
-    const [
-      headerSource,
-      headerAuthor,
-      headerDate,
-    ] = [
+    const [headerSource, headerAuthor, headerDate] = [
       `${extension === 'js' ? '//' : '#'} Source : ${source}`,
       `${extension === 'js' ? '//' : '#'} Author : ${author}`,
       `${extension === 'js' ? '//' : '#'} Date   : ${date}`,
@@ -117,18 +127,16 @@ class File {
 
   createDescription(description) {
     const extension = this.getExtension()
-    const [
-      commentHeader,
-      commentBlock,
-      commentFooter,
-    ] = [
+    const [commentHeader, commentBlock, commentFooter] = [
       extension === 'js' ? '/'.padEnd(88, '*') : '#'.repeat(82),
       extension === 'js' ? ' * ' : '#  ',
-      extension === 'js' ? ' ' + '/'.padStart(88, '*') : '#'.repeat(82),,
+      extension === 'js' ? ` ${'/'.padStart(88, '*')}` : '#'.repeat(82),
     ]
 
     const commentBody = this.getContent(description)
-    return `${commentHeader}${commentBody.join(`\n${commentBlock}`)}\n${commentFooter}`
+    return `${commentHeader}${commentBody.join(
+      `\n${commentBlock}`,
+    )}\n${commentFooter}`
   }
 
   createSourceFile() {
@@ -144,6 +152,6 @@ class File {
   }
 }
 
-if (sourceFilePaths.length > 0) {
-  sourceFilePaths.map(sourceFilePath => new File(sourceFilePath, readmeFilePath).process())
+if (sources.length > 0) {
+  sources.map((sourceFilePath) => new File(sourceFilePath, readme).process())
 }

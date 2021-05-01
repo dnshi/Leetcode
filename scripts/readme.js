@@ -1,6 +1,6 @@
-const https = require('https')
-const fs = require('fs')
-const { promisify } = require('util')
+import https from 'https'
+import fs from 'fs'
+import { promisify } from 'util'
 
 const readFileAsync = promisify(fs.readFile)
 const writeFileAsync = promisify(fs.writeFile)
@@ -18,7 +18,7 @@ const LEVEL = {
   3: 'Hard',
 }
 
-module.exports = class ReadMe {
+export default class ReadMe {
   constructor(sourceFilePath, readmeFilePath, url) {
     this.sourceFilePath = sourceFilePath
     this.readmeFilePath = readmeFilePath
@@ -29,7 +29,9 @@ module.exports = class ReadMe {
     const { stat_status_pairs: data } = await this.fetch(URL)
 
     const slug = this.getSource().split('/').pop()
-    const questionInfo = data.find(({ stat }) => stat.question__title_slug === slug)
+    const questionInfo = data.find(
+      ({ stat }) => stat.question__title_slug === slug,
+    )
     const { frontend_question_id, question__title } = questionInfo.stat
     const { level } = questionInfo.difficulty
 
@@ -41,7 +43,7 @@ module.exports = class ReadMe {
 
   async processReadmeFile() {
     try {
-      const readmeFilePath = this.readmeFilePath
+      const { readmeFilePath } = this
       const file = await readFileAsync(readmeFilePath, { encoding: 'utf8' })
       const line = this.searchLine(file)
       const data = this.insertLine(file, this.getLine(), file.indexOf(line))
@@ -58,7 +60,7 @@ module.exports = class ReadMe {
     const lines = file.match(regex)
     const targetNum = this.getNum()
 
-    return lines.find(line => +line.match(/\d+/)[0] < targetNum)
+    return lines.find((line) => +line.match(/\d+/)[0] < targetNum)
   }
 
   insertLine(file, line, index) {
@@ -86,8 +88,11 @@ module.exports = class ReadMe {
 
   getSource() {
     const suffixes = ['/description', '/discuss', '/submissions']
-    return suffixes.some(suffix => this.url.includes(suffix))
-      ? this.url.slice(0, Math.max(...suffixes.map((suffix) => this.url.indexOf(suffix))))
+    return suffixes.some((suffix) => this.url.includes(suffix))
+      ? this.url.slice(
+          0,
+          Math.max(...suffixes.map((suffix) => this.url.indexOf(suffix))),
+        )
       : this.url.replace(/\/$/, '')
   }
 
@@ -111,7 +116,7 @@ module.exports = class ReadMe {
     return new Promise((resolve, reject) => {
       https
         .get(url, (resp) => {
-          let data = '';
+          let data = ''
 
           resp.on('data', (chunk) => {
             data += chunk
