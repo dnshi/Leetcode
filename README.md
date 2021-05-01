@@ -4,9 +4,11 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|1839|[Longest Substring Of All Vowels in Order](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order)|[JavaScript](algorithms/LongestSubstringOfAllVowelsInOrder.js)|Medium|
 |1452|[People Whose List of Favorite Companies Is Not a Subset of Another List](https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list)|[JavaScript](algorithms/PeopleWhoseListOfFavoriteCompaniesIsNotASubsetOfAnotherList.js)|Medium|
 |1451|[Rearrange Words in a Sentence](https://leetcode.com/problems/rearrange-words-in-a-sentence)|[JavaScript](algorithms/RearrangeWordsInASentence.js)|Medium|
 |1450|[Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time)|[JavaScript](algorithms/NumberOfStudentsDoingHomeworkAtAGivenTime.js)|Easy|
+|1344|[Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock)|[JavaScript](algorithms/AngleBetweenHandsOfAClock.js)|Medium|
 |1071|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings)|[JavaScript](algorithms/GreatestCommonDivisorOfStrings.js)|Easy|
 |1047|[Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string)|[JavaScript](algorithms/RemoveAllAdjacentDuplicatesInString.js)|Easy|
 |1046|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight)|[JavaScript](algorithms/LastStoneWeight.js)|Easy|
@@ -103,6 +105,7 @@
 |345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string) | [JavaScript](./algorithms/ReverseVowelsOfAString.js)|Easy|
 |344|[Reverse String](https://leetcode.com/problems/reverse-string) | [JavaScript](./algorithms/ReverseString.js)|Easy|
 |342|[Power of Four](https://leetcode.com/problems/power-of-four) | [JavaScript](./algorithms/PowerOfFour.js)|Easy|
+|341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator)|[JavaScript](algorithms/FlattenNestedListIterator.js)|Medium|
 |326|[Power of Three](https://leetcode.com/problems/power-of-three) | [JavaScript](./algorithms/PowerOfThree.js)|Easy|
 |322|[Coin Change](https://leetcode.com/problems/coin-change) | [JavaScript](./algorithms/CoinChange.js)|Medium|
 |319|[Bulb Switcher](https://leetcode.com/problems/bulb-switcher) | [JavaScript](./algorithms/BulbSwitcher.js)|Medium|
