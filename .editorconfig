@@ -1,0 +1,23 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+# Set default charset
+# 4 space indentation
+[*.js]
+charset = utf-8
+indent_style = space
+
+# 2 space indentation
+[scripts/*.js]
+indent_size = 2
+
+# 4 space indentation
+[algorithms/*.js]
+indent_size = 4
