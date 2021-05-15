@@ -1,7 +1,7 @@
 import fs from 'fs'
 import { promisify } from 'util'
 import puppeteer from 'puppeteer'
-import ReadMe from './readme'
+import ReadMe from './readme.js'
 import nodePackage from '../package.json'
 
 const readFileAsync = promisify(fs.readFile)
