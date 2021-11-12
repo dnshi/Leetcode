@@ -164,6 +164,7 @@
 |67|[Add Binary](https://leetcode.com/problems/add-binary) | [JavaScript](./algorithms/AddBinary.js)|Easy|
 |66|[Plus One](https://oj.leetcode.com/problems/plus-one/)| [JavaScript](./algorithms/PlusOne.js)|Easy|
 |58|[Length of Last Word](https://oj.leetcode.com/problems/length-of-last-word/)| [JavaScript](./algorithms/LengthOfLastWord.js)|Easy|
+|56|[Merge Intervals](https://leetcode.com/problems/merge-intervals)|[JavaScript](algorithms/MergeIntervals.js)|Medium|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | [JavaScript](./algorithms/MaximumSubarray.js)|Easy|
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n) | [JavaScript](./algorithms/PowXN.js)|Medium|
 |35|[Search Insert Position](https://oj.leetcode.com/problems/search-insert-position/)| [JavaScript](./algorithms/SearchInsertPosition.js)|Easy|
