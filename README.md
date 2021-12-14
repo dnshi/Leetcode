@@ -149,6 +149,7 @@
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | [JavaScript](./algorithms/BestTimeToBuyAndSellStock.js)|Easy|
 |119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii) | [JavaScript](./algorithms/PascalsTriangle_II.js)|Easy|
 |118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle) | [JavaScript](./algorithms/PascalsTriangle.js)|Easy|
+|112|[Path Sum](https://leetcode.com/problems/path-sum)|[JavaScript](algorithms/PathSum.js)|Easy|
 |111|[Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree) | [JavaScript](./algorithms/MinimumDepthOfBinaryTree.js)|Easy|
 |108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | [JavaScript](./algorithms/ConvertSortedArrayToBinarySearchTree.js)|Easy|
 |107|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii) | [JavaScript](./algorithms/BinaryTreeLevelOrderTraversal_II.js)|Easy|
