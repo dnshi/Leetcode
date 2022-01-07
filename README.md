@@ -10,6 +10,7 @@
 |1451|[Rearrange Words in a Sentence](https://leetcode.com/problems/rearrange-words-in-a-sentence)|[JavaScript](algorithms/RearrangeWordsInASentence.js)|Medium|
 |1450|[Number of Students Doing Homework at a Given Time](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time)|[JavaScript](algorithms/NumberOfStudentsDoingHomeworkAtAGivenTime.js)|Easy|
 |1446|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters)|[JavaScript](algorithms/ConsecutiveCharacters.js)|Easy|
+|1379|[Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree)|[JavaScript](algorithms/FindACorrespondingNodeOfABinaryTreeInACloneOfThatTree.js)|Medium|
 |1344|[Angle Between Hands of a Clock](https://leetcode.com/problems/angle-between-hands-of-a-clock)|[JavaScript](algorithms/AngleBetweenHandsOfAClock.js)|Medium|
 |1290|[Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer)|[JavaScript](algorithms/ConvertBinaryNumberInALinkedListToInteger.js)|Easy|
 |1071|[Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings)|[JavaScript](algorithms/GreatestCommonDivisorOfStrings.js)|Easy|
