@@ -116,6 +116,7 @@
 |326|[Power of Three](https://leetcode.com/problems/power-of-three) | [JavaScript](./algorithms/PowerOfThree.js)|Easy|
 |322|[Coin Change](https://leetcode.com/problems/coin-change) | [JavaScript](./algorithms/CoinChange.js)|Medium|
 |319|[Bulb Switcher](https://leetcode.com/problems/bulb-switcher) | [JavaScript](./algorithms/BulbSwitcher.js)|Medium|
+|299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows)|[JavaScript](algorithms/BullsAndCows.js)|Medium|
 |297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)|[JavaScript](algorithms/SerializeAndDeserializeBinaryTree.js)|Hard|
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number)|[JavaScript](algorithms/FindTheDuplicateNumber.js)|Medium|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes)|[JavaScript](algorithms/MoveZeroes.js)|Easy|
