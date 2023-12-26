@@ -105,10 +105,11 @@ class File {
 
   createHeader(source, author, date) {
     const extension = this.getExtension();
+    const commentStyle = extension === "js" ? "//" : "#";
     const [headerSource, headerAuthor, headerDate] = [
-      `${extension === "js" ? "//" : "#"} Source : ${source}`,
-      `${extension === "js" ? "//" : "#"} Author : ${author}`,
-      `${extension === "js" ? "//" : "#"} Date   : ${date}`,
+      `${commentStyle} Source : ${source}`,
+      `${commentStyle} Author : ${author}`,
+      `${commentStyle} Date   : ${date}`,
     ];
 
     return `${headerSource}\n${headerAuthor}\n${headerDate}\n`;
