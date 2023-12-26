@@ -4,6 +4,7 @@
 
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|2974|[Minimum Number Game](https://leetcode.com/problems/minimum-number-game)|[JavaScript](algorithms/MinimumNumberGame.js)|Easy|
 |1848|[Minimum Distance to the Target Element](https://leetcode.com/problems/minimum-distance-to-the-target-element)|[JavaScript](algorithms/MinimumDistanceToTheTargetElement.js)|Easy|
 |1839|[Longest Substring Of All Vowels in Order](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order)|[JavaScript](algorithms/LongestSubstringOfAllVowelsInOrder.js)|Medium|
 |1452|[People Whose List of Favorite Companies Is Not a Subset of Another List](https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list)|[JavaScript](algorithms/PeopleWhoseListOfFavoriteCompaniesIsNotASubsetOfAnotherList.js)|Medium|
